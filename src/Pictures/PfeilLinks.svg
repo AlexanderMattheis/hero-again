@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="320"
+   height="320"
+   viewBox="0 0 320.00001 320.00001"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="pfeil.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.74118965"
+     inkscape:cx="-31.031194"
+     inkscape:cy="6.0713206"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1592"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path936"
+       style="color:#000000;fill:#ff0000;fill-opacity:1;stroke-width:6.66406;-inkscape-stroke:none"
+       d="M 227.2869,33.453958 C 207.51294,33.846237 128.24911,82.958255 116.97384,89.468026 104.94689,96.411781 12.26219,146.1108 12.26219,159.99831 c 0,13.88754 92.68468,63.58655 104.71165,70.53027 12.02695,6.94382 101.40972,62.36307 113.4367,55.41924 8.62986,-4.98242 9.34698,-60.2056 9.07536,-96.30769 l 68.25191,7.66178 v -74.59628 l -68.25191,7.66177 c 0.27182,-36.10184 -0.44474,-91.332077 -9.07536,-96.314991 -0.7517,-0.433981 -1.80539,-0.624608 -3.12364,-0.598451 z"
+       sodipodi:nodetypes="csscsccccsc" />
+  </g>
+</svg>
