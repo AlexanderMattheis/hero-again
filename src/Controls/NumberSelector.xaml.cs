@@ -11,8 +11,8 @@ namespace Hero.Controls
     {
         public int Wert
         {
-            get { return (int)GetValue(CurrentProperty); }
-            set { SetValue(CurrentProperty, value); }
+            get => (int)GetValue(CurrentProperty);
+            set => SetValue(CurrentProperty, value);
         }
 
         public static readonly DependencyProperty CurrentProperty =
@@ -20,8 +20,8 @@ namespace Hero.Controls
 
         public int Minimum
         {
-            get { return (int)GetValue(MinimumProperty); }
-            set { SetValue(MinimumProperty, value); }
+            get => (int)GetValue(MinimumProperty);
+            set => SetValue(MinimumProperty, value);
         }
 
         public static readonly DependencyProperty MinimumProperty =
@@ -29,8 +29,8 @@ namespace Hero.Controls
 
         public int Maximum
         {
-            get { return (int)GetValue(MaximumProperty); }
-            set { SetValue(MaximumProperty, value); }
+            get => (int)GetValue(MaximumProperty);
+            set => SetValue(MaximumProperty, value);
         }
 
         public static readonly DependencyProperty MaximumProperty =
@@ -65,6 +65,9 @@ namespace Hero.Controls
             {
                 Wert--;
             }
+
+            // damit der Fokus nicht auf dem gedrückten Button verbleibt und Shortcuts wie die ENTER-Taste wirken
+            Keyboard.Focus(this); 
         }
 
         private void InkrementiereWert(object sender, RoutedEventArgs e)
@@ -73,6 +76,9 @@ namespace Hero.Controls
             {
                 Wert++;
             }
+
+            // damit der Fokus nicht auf dem gedrückten Button verbleibt und Shortcuts wie die ENTER-Taste wirken
+            Keyboard.Focus(this);
         }
     }
 }

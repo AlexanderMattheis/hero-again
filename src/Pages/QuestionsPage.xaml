@@ -1,0 +1,19 @@
+﻿<Page x:Class="Hero.Pages.QuestionPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:controls="clr-namespace:Hero.Controls"
+      mc:Ignorable="d" 
+      MinHeight="720" MinWidth="1280"
+      Title="QuestionsPage">
+    <Grid Background="{StaticResource BackgroundColorBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="8*"/>
+        </Grid.RowDefinitions>
+
+        <controls:QuestionDisplay Grid.Row="2"/>
+    </Grid>
+</Page>

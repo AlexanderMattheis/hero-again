@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using Hero.Pages;
+using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Input;
 
@@ -12,6 +13,13 @@ namespace Hero
         public MainWindow()
         {
             InitializeComponent();
+
+            AnzeigeFrame.Content = new AnzahlTeamsPage();
+        }
+
+        private void AnzeigeFrame_KeyDown(object sender, KeyEventArgs e)
+        {
+            AnzeigeFrame.Content = new QuestionPage();
         }
     }
 }
