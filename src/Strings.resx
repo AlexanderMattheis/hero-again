@@ -117,10 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="DefaultOption" xml:space="preserve">
-    <value>[keine Option]</value>
-  </data>
-  <data name="DefaultQuestion" xml:space="preserve">
+  <data name="StandardFrage" xml:space="preserve">
     <value>[keine Fragen oder keine Fragen gesetzt]</value>
+  </data>
+  <data name="StandardOption" xml:space="preserve">
+    <value>[keine Option]</value>
   </data>
 </root>

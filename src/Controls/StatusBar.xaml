@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Hero.Controls.StatusBar"
+             x:Name="Self"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             FontSize="18" Background="White" Padding="40,5">
+    <Grid>
+        <Viewbox Stretch="Uniform" HorizontalAlignment="Left">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <Label FontWeight="Bold" Foreground="DarkRed">Zeit</Label>
+                <Label Foreground="DarkRed" MaxWidth="100" 
+                   Content="{Binding ElementName=Self, Path=Zeit, Mode=OneWay}"/>
+                <!-- Dispatcher arbeitet in separatem Thread, daher ohne Binding -->
+                <Label FontWeight="Bold" Foreground="DarkRed" Margin="20 0 0 0">Punkte</Label>
+                <Label Foreground="DarkRed" MaxWidth="100" 
+                   Content="{Binding ElementName=Self, Path=Punkte, Mode=OneWay}"/>
+            </StackPanel>
+        </Viewbox>
+    </Grid>
+</UserControl>

@@ -7,6 +7,7 @@
       mc:Ignorable="d" 
       MinHeight="720" MinWidth="1280"
       Title="AnzahlTeamsPage">
+    
     <Grid Background="{StaticResource BackgroundColorBrush}">
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>

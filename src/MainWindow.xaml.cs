@@ -1,5 +1,4 @@
 ﻿using Hero.Pages;
-using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Input;
 

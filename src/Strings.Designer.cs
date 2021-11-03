@@ -61,20 +61,20 @@ namespace Hero {
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die [keine Option] ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die [keine Fragen oder keine Fragen gesetzt] ähnelt.
         /// </summary>
-        internal static string DefaultOption {
+        internal static string StandardFrage {
             get {
-                return ResourceManager.GetString("DefaultOption", resourceCulture);
+                return ResourceManager.GetString("StandardFrage", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Sucht eine lokalisierte Zeichenfolge, die [keine Fragen oder keine Fragen gesetzt] ähnelt.
+        ///   Sucht eine lokalisierte Zeichenfolge, die [keine Option] ähnelt.
         /// </summary>
-        internal static string DefaultQuestion {
+        internal static string StandardOption {
             get {
-                return ResourceManager.GetString("DefaultQuestion", resourceCulture);
+                return ResourceManager.GetString("StandardOption", resourceCulture);
             }
         }
     }

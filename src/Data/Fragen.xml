@@ -1,0 +1,19 @@
+<quiz>
+  <frage>
+    <text>Wie heißen die vier Evangelisten in der Bibel?</text>
+    <optionA>Matthäus, Markus, Lukas und Johannes</optionA>
+    <optionB>Matthäus, Magnus, Lukas und Johannes</optionB>
+    <optionC>Matthias, Markus, Lukas und Johannes</optionC>
+    <optionD>Matthäus, Markus, Luis und Johannes</optionD>
+    <antwort>1</antwort>
+  </frage>
+
+  <frage>
+    <text>Wie hieß Jesus Großmutter mütterlicherseits?</text>
+    <optionA>Maria bzw. Mirjam</optionA>
+    <optionB>Anna bzw. Hannah</optionB>
+    <optionC>Milka bzw. Mila</optionC>
+    <optionD>Eva bzw. Chawwah</optionD>
+    <antwort>2</antwort>
+  </frage>
+</quiz>

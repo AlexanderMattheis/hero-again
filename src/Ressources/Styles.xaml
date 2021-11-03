@@ -67,7 +67,35 @@
 
     <!-- Eckige Buttons -->
     <Style x:Key="EckigerButton" TargetType="{x:Type Button}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Background="{TemplateBinding Background}">
+                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        
         <Setter Property="Background" Value="White"/>
+        <Setter Property="Foreground" Value="DarkRed"/>
+        <Setter Property="Width" Value="120"/>
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="BorderThickness" Value="0" />
+        <Setter Property="Margin" Value="5" />
+
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="15" />
+            </Style>
+        </Style.Resources>
+
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="Background" Value="Darkred"/>
+            </Trigger>
+        </Style.Triggers>
     </Style>
 
     <!-- TextBox -->
