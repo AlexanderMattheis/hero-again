@@ -11,19 +11,39 @@
     
     <Grid Background="{StaticResource BackgroundColorBrush}">
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
 
-        <Rectangle Grid.Row="1" VerticalAlignment="Center" Fill="White" Height="80"/>
-        <Label Grid.Row="1" FontWeight="Bold" Foreground="DarkRed" Margin="0 0 0 25" HorizontalAlignment="Center" VerticalAlignment="Center">Finale Punktanzahl</Label>
-        <Label Grid.Row="1" Foreground="DarkRed" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 25 0 0" 
-               Content="{Binding ElementName=Self, Path=Punkte, Mode=OneWay}" d:Content="0"/>
+        <Grid Background="White" Grid.Row="1" Margin="0 25">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Viewbox Stretch="Uniform" Grid.Column="1">
+                <StackPanel>
+                    <Label FontWeight="Bold" Foreground="DarkRed" HorizontalAlignment="Center">Finale Punktanzahl</Label>
+                    <Label Foreground="DarkRed" HorizontalAlignment="Center" Content="{Binding ElementName=Self, Path=Punkte, Mode=OneWay}" d:Content="0"/>
+                </StackPanel>
+            </Viewbox>
+        </Grid>
 
-        <StackPanel Grid.Row="2">
-            <Button x:Name="NeustartButton" Style="{StaticResource EckigerButton}" Click="NeustartButton_Click">Neustart</Button>
-            <Button x:Name="VerlassenButton" Style="{StaticResource EckigerButton}" Click="VerlassenButton_Click">Verlassen</Button>
-        </StackPanel>
+        <Grid Grid.Row="3" Margin="0 25">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="4*"/>
+            </Grid.ColumnDefinitions>
+
+            <Viewbox Stretch="Uniform" Grid.Column="1">
+                <StackPanel Grid.Column="1">
+                    <Button x:Name="NeustartButton" Style="{StaticResource EckigerButton}" Click="NeustartButton_Click">Neustart</Button>
+                    <Button x:Name="VerlassenButton" Style="{StaticResource EckigerButton}" Click="VerlassenButton_Click">Verlassen</Button>
+                </StackPanel>
+            </Viewbox>
+        </Grid>
     </Grid>
 </Page>

@@ -20,18 +20,20 @@
         <KeyBinding Command="{Binding Source={StaticResource Inkrement}}" Key="Left"/>
         <KeyBinding Command="{Binding Source={StaticResource Dekrement}}" Key="Right"/>
     </UserControl.InputBindings>
-    
-    <StackPanel Orientation="Horizontal">
-        <Button x:Name="WertDekrementButton" 
+
+    <Viewbox Stretch="Uniform">
+        <StackPanel Orientation="Horizontal">
+            <Button x:Name="WertDekrementButton" 
                 Style="{StaticResource RueckwaertsButton}" 
                 Command="{Binding Source={StaticResource Inkrement}}"/>
-        
-        <TextBox x:Name="TextBoxAnzahlSpieler" 
+
+            <TextBox x:Name="TextBoxAnzahlSpieler" 
                  Style="{StaticResource DisplayTextBox}" 
                  Text="{Binding ElementName=Self, Path=Wert, Mode=OneWay}"/>
-        
-        <Button x:Name="WertInkrementButton" 
+
+            <Button x:Name="WertInkrementButton" 
                 Style="{StaticResource VorwaertsButton}" 
                 Command="{Binding Source={StaticResource Dekrement}}"/>
-    </StackPanel>
+        </StackPanel>
+    </Viewbox>
 </UserControl>

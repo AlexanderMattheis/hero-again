@@ -31,25 +31,25 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <Border x:Name="OptionAButton" Background="White" CornerRadius="10" Margin="5" MouseLeftButtonDown="OptionButton_MouseLeftButtonDown">
+            <Border x:Name="OptionAButton" Style="{StaticResource BorderButtons}" MouseLeftButtonDown="OptionButton_MouseLeftButtonDown">
                 <Viewbox Stretch="Uniform" HorizontalAlignment="Left">
                     <TextBlock Style="{StaticResource DisplayTextBlock}" Text="{Binding OptionA, RelativeSource={RelativeSource AncestorType=UserControl}}"/>
                 </Viewbox>
             </Border>
 
-            <Border x:Name="OptionBButton" Grid.Column="1" Background="White" CornerRadius="10" Margin="5" MouseLeftButtonDown="OptionButton_MouseLeftButtonDown">
+            <Border x:Name="OptionBButton" Grid.Column="1" Style="{StaticResource BorderButtons}" MouseLeftButtonDown="OptionButton_MouseLeftButtonDown">
                 <Viewbox Stretch="Uniform" HorizontalAlignment="Left">
                     <TextBlock Style="{StaticResource DisplayTextBlock}" Text="{Binding OptionB, RelativeSource={RelativeSource AncestorType=UserControl}}"/>
                 </Viewbox>
             </Border>
 
-            <Border x:Name="OptionCButton" Grid.Row="1" Background="White" CornerRadius="10" Margin="5" MouseLeftButtonDown="OptionButton_MouseLeftButtonDown">
+            <Border x:Name="OptionCButton" Grid.Row="1" Style="{StaticResource BorderButtons}" MouseLeftButtonDown="OptionButton_MouseLeftButtonDown">
                 <Viewbox Stretch="Uniform" HorizontalAlignment="Left">
                     <TextBlock Style="{StaticResource DisplayTextBlock}" Text="{Binding OptionC, RelativeSource={RelativeSource AncestorType=UserControl}}"/>
                 </Viewbox>
             </Border>
 
-            <Border x:Name="OptionDButton" Grid.Column="1" Grid.Row="1" Background="White" CornerRadius="10" Margin="5" MouseLeftButtonDown="OptionButton_MouseLeftButtonDown">
+            <Border x:Name="OptionDButton" Grid.Column="1" Grid.Row="1" Style="{StaticResource BorderButtons}" MouseLeftButtonDown="OptionButton_MouseLeftButtonDown">
                 <Viewbox Stretch="Uniform" HorizontalAlignment="Left">
                     <TextBlock Style="{StaticResource DisplayTextBlock}" Text="{Binding OptionD, RelativeSource={RelativeSource AncestorType=UserControl}}"/>
                 </Viewbox>

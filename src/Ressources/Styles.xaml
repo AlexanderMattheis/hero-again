@@ -98,6 +98,13 @@
         </Style.Triggers>
     </Style>
 
+    <!-- Border Buttons -->
+    <Style x:Key="BorderButtons" TargetType="{x:Type Border}">
+        <Setter Property="Background" Value="White"/>
+        <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="Margin" Value="5"/>
+    </Style>
+    
     <!-- TextBox -->
     <Style x:Key="DisplayTextBox" TargetType="{x:Type TextBox}">
         <Setter Property="CaretBrush">

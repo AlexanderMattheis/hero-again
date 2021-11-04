@@ -9,12 +9,19 @@
       Title="AnzahlTeamsPage">
     
     <Grid Background="{StaticResource BackgroundColorBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        
         <Grid.RowDefinitions>
+
             <RowDefinition Height="2*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <controls:NumberSelector x:Name="AnzahlTeamsNumberSelector" Grid.Row="0" VerticalAlignment="Bottom" 
+        <controls:NumberSelector x:Name="AnzahlTeamsNumberSelector" Grid.Column="1" Grid.Row="0" VerticalAlignment="Bottom" 
                                  HorizontalAlignment="Center" Minimum="1" Maximum="8"/>
     </Grid>
 </Page>
