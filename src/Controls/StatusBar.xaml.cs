@@ -23,31 +23,44 @@ namespace Hero.Controls
             set => SetValue(PunktAnzahlProperty, value);
         }
 
-        public static readonly DependencyProperty PunktAnzahlProperty =
+        private static readonly DependencyProperty PunktAnzahlProperty =
             DependencyProperty.Register(nameof(Punkte), typeof(int), typeof(StatusBar), new PropertyMetadata(START_PUNKTE));
 
-        public string Zeit
+        private string Zeit
         {
             get => (string)GetValue(FrageProperty);
             set => SetValue(FrageProperty, value);
         }
 
-        public static readonly DependencyProperty FrageProperty =
+        private static readonly DependencyProperty FrageProperty =
             DependencyProperty.Register(nameof(Zeit), typeof(string), typeof(StatusBar), new PropertyMetadata(START_ZEIT));
+
+        public int Minuten
+        {
+            get => (int)GetValue(MinutenProperty);
+            set => SetValue(MinutenProperty, value);
+        }
+
+        public static readonly DependencyProperty MinutenProperty =
+            DependencyProperty.Register(nameof(Minuten), typeof(int), typeof(StatusBar), new PropertyMetadata(0));
         #endregion
 
         public StatusBar()
         {
             InitializeComponent();
+            Loaded += Geladen; // damit erst nach Platzierung und Initialisierung beginnt
+        }
 
+        public void Geladen(object sender, EventArgs e)
+        {
             zeitgeber = new DispatcherTimer(new TimeSpan(0, 0, 0, 1, 0),
                 DispatcherPriority.Background, SetzeZeit, Dispatcher.CurrentDispatcher);
 
-            startZeit = DateTime.Now;
+            startZeit = DateTime.Now.AddMinutes(Minuten);
             zeitgeber.Start();
         }
 
         private void SetzeZeit(object sender, EventArgs e)
-            => Zeit = Convert.ToString(DateTime.Now - startZeit)[0..8];
+            => Zeit = Convert.ToString(startZeit - DateTime.Now)[0..8];
     }
 }

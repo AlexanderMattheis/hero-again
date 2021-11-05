@@ -11,6 +11,7 @@ namespace Hero.Pages
     public partial class QuestionPage : Page
     {
         private const int START_PUNKTE = 0;
+        private const int START_ZEIT = 30;
 
         private int aktuelleFrageIndex = 0;
 
@@ -77,12 +78,23 @@ namespace Hero.Pages
 
         public static readonly DependencyProperty PunkteProperty =
             DependencyProperty.Register(nameof(Punkte), typeof(int), typeof(QuestionPage), new PropertyMetadata(START_PUNKTE));
+
+        public int Minuten
+        {
+            get => (int)GetValue(MinutenProperty);
+            set => SetValue(MinutenProperty, value);
+        }
+
+        private static readonly DependencyProperty MinutenProperty =
+            DependencyProperty.Register(nameof(Minuten), typeof(int), typeof(QuestionPage), new PropertyMetadata(START_ZEIT));
         #endregion
 
-        public QuestionPage()
+        public QuestionPage(int minuten)
         {
             InitializeComponent();
             LadeFrage(0);
+
+            Minuten = minuten;
         }
 
         public void LadeFrage(int index)

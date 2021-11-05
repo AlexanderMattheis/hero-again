@@ -25,7 +25,7 @@ namespace Hero.Controls
             set => SetValue(FrageProperty, value);
         }
 
-        public static readonly DependencyProperty FrageProperty =
+        private static readonly DependencyProperty FrageProperty =
             DependencyProperty.Register(nameof(Frage), typeof(string), typeof(QuestionDisplay), new PropertyMetadata(Strings.StandardFrage));
 
         public string OptionA
@@ -34,7 +34,7 @@ namespace Hero.Controls
             set => SetValue(OptionAProperty, value);
         }
 
-        public static readonly DependencyProperty OptionAProperty =
+        private static readonly DependencyProperty OptionAProperty =
             DependencyProperty.Register(nameof(OptionA), typeof(string), typeof(QuestionDisplay), new PropertyMetadata(Strings.StandardOption));
 
         public string OptionB
@@ -43,7 +43,7 @@ namespace Hero.Controls
             set => SetValue(OptionBProperty, value);
         }
 
-        public static readonly DependencyProperty OptionBProperty =
+        private static readonly DependencyProperty OptionBProperty =
             DependencyProperty.Register(nameof(OptionB), typeof(string), typeof(QuestionDisplay), new PropertyMetadata(Strings.StandardOption));
 
         public string OptionC
@@ -52,7 +52,7 @@ namespace Hero.Controls
             set => SetValue(OptionCProperty, value);
         }
 
-        public static readonly DependencyProperty OptionCProperty =
+        private static readonly DependencyProperty OptionCProperty =
             DependencyProperty.Register(nameof(OptionC), typeof(string), typeof(QuestionDisplay), new PropertyMetadata(Strings.StandardOption));
 
         public string OptionD
@@ -61,7 +61,7 @@ namespace Hero.Controls
             set => SetValue(OptionDProperty, value);
         }
 
-        public static readonly DependencyProperty OptionDProperty =
+        private static readonly DependencyProperty OptionDProperty =
             DependencyProperty.Register(nameof(OptionD), typeof(string), typeof(QuestionDisplay), new PropertyMetadata(Strings.StandardOption));
         #endregion
 

@@ -15,7 +15,7 @@ namespace Hero.Controls
             set => SetValue(CurrentProperty, value);
         }
 
-        public static readonly DependencyProperty CurrentProperty =
+        private static readonly DependencyProperty CurrentProperty =
             DependencyProperty.Register(nameof(Wert), typeof(int), typeof(NumberSelector), new PropertyMetadata(0));
 
         public int Minimum
@@ -24,7 +24,7 @@ namespace Hero.Controls
             set => SetValue(MinimumProperty, value);
         }
 
-        public static readonly DependencyProperty MinimumProperty =
+        private static readonly DependencyProperty MinimumProperty =
             DependencyProperty.Register(nameof(Minimum), typeof(int), typeof(NumberSelector), new PropertyMetadata(0));
 
         public int Maximum
@@ -33,7 +33,7 @@ namespace Hero.Controls
             set => SetValue(MaximumProperty, value);
         }
 
-        public static readonly DependencyProperty MaximumProperty =
+        private static readonly DependencyProperty MaximumProperty =
             DependencyProperty.Register(nameof(Maximum), typeof(int), typeof(NumberSelector), new PropertyMetadata(0));
 
         public NumberSelector()

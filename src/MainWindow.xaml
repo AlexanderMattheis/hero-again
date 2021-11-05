@@ -6,5 +6,5 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         Title="Hero" MinHeight="720" MinWidth="1280">
-    <Frame x:Name="AnzeigeFrame" NavigationUIVisibility="Hidden" KeyDown="AnzeigeFrame_KeyDown"/>
+    <Frame x:Name="AnzeigeFrame" NavigationUIVisibility="Hidden"/>
 </Window>

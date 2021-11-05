@@ -1,4 +1,5 @@
 ﻿<Page x:Class="Hero.Pages.AnzahlTeamsPage"
+      x:Name="Self"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -8,7 +9,7 @@
       MinHeight="720" MinWidth="1280"
       Title="AnzahlTeamsPage">
     
-    <Grid Background="{StaticResource BackgroundColorBrush}">
+    <Grid Background="{StaticResource BackgroundColorBrush}" KeyDown="Grid_KeyDown" >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="*"/>
@@ -16,12 +17,16 @@
         </Grid.ColumnDefinitions>
         
         <Grid.RowDefinitions>
-
             <RowDefinition Height="2*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <controls:NumberSelector x:Name="AnzahlTeamsNumberSelector" Grid.Column="1" Grid.Row="0" VerticalAlignment="Bottom" 
-                                 HorizontalAlignment="Center" Minimum="1" Maximum="8"/>
+        <Viewbox Stretch="Uniform" Grid.Column="1" Grid.Row="0" VerticalAlignment="Bottom">
+            <StackPanel>
+                <Label Foreground="White" FontSize="18" HorizontalAlignment="Center" FontWeight="Bold">Minuten</Label>
+                <controls:NumberSelector x:Name="AnzahlTeamsNumberSelector" 
+                                         HorizontalAlignment="Center" Minimum="1" Wert="{Binding ElementName=Self, Path=Minuten, Mode=TwoWay}" Maximum="60"/>
+            </StackPanel>
+        </Viewbox>
     </Grid>
 </Page>

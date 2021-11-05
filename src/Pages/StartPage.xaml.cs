@@ -1,4 +1,6 @@
-﻿using System.Windows.Controls;
+﻿using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Input;
 
 namespace Hero.Pages
 {
@@ -7,9 +9,28 @@ namespace Hero.Pages
     /// </summary>
     public partial class AnzahlTeamsPage : Page
     {
+        private const int START_MINUTEN = 30;
+
+        public int Minuten
+        {
+            get => (int)GetValue(MinutenProperty);
+            set => SetValue(MinutenProperty, value);
+        }
+
+        public static readonly DependencyProperty MinutenProperty =
+            DependencyProperty.Register(nameof(Minuten), typeof(int), typeof(AnzahlTeamsPage), new PropertyMetadata(START_MINUTEN));
+
         public AnzahlTeamsPage()
         {
             InitializeComponent();
+        }
+
+        private void Grid_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                NavigationService.Navigate(new QuestionPage(Minuten));
+            }
         }
     }
 }
