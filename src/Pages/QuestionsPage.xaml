@@ -16,7 +16,8 @@
         </Grid.RowDefinitions>
 
         <controls:StatusBar Punkte="{Binding ElementName=Self, Path=Punkte, Mode=OneWay}" 
-                            Minuten="{Binding ElementName=Self, Path=Minuten, Mode=OneWay}"/>
+                            Minuten="{Binding ElementName=Self, Path=Minuten, Mode=OneWay}"
+                            OnFinish="StatusBar_OnFinish"/>
         <controls:QuestionDisplay Grid.Row="2" 
                                   Frage="{Binding ElementName=Self, Path=Frage, Mode=OneWay}"
                                   OptionA="{Binding ElementName=Self, Path=OptionA, Mode=OneWay}"

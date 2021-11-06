@@ -10,13 +10,15 @@ namespace Hero.Controls
     /// </summary>
     public partial class StatusBar : UserControl
     {
-        private const string START_ZEIT = "00:00:00";
+        private const string START_ZEIT = "99:99:99";
         private const int START_PUNKTE = 0;
 
         private static DispatcherTimer zeitgeber;
         private DateTime startZeit;
 
-        #region Events
+        private bool fertig;
+
+        #region Properties
         public int Punkte
         {
             get => (int)GetValue(PunktAnzahlProperty);
@@ -45,22 +47,47 @@ namespace Hero.Controls
             DependencyProperty.Register(nameof(Minuten), typeof(int), typeof(StatusBar), new PropertyMetadata(0));
         #endregion
 
+        public event RoutedEventHandler OnFinish
+        {
+            add { AddHandler(OnFinishEvent, value); }
+            remove { RemoveHandler(OnFinishEvent, value); }
+        }
+
+        private static readonly RoutedEvent OnFinishEvent =
+            EventManager.RegisterRoutedEvent(nameof(OnFinish), RoutingStrategy.Direct, typeof(RoutedEventHandler), typeof(StatusBar));
+
         public StatusBar()
         {
             InitializeComponent();
             Loaded += Geladen; // damit erst nach Platzierung und Initialisierung beginnt
+            Unloaded += Ungeladen;
         }
 
-        public void Geladen(object sender, EventArgs e)
+        private void Geladen(object sender, EventArgs e)
         {
             zeitgeber = new DispatcherTimer(new TimeSpan(0, 0, 0, 1, 0),
                 DispatcherPriority.Background, SetzeZeit, Dispatcher.CurrentDispatcher);
 
-            startZeit = DateTime.Now.AddMinutes(Minuten);
+            startZeit = DateTime.Now.AddSeconds(Minuten);
             zeitgeber.Start();
         }
 
+        private void Ungeladen(object sender, RoutedEventArgs e) // nur zur Sicherheit
+        {
+            Loaded -= Geladen;
+            zeitgeber.Stop();
+            Unloaded -= Ungeladen;
+        }
+
         private void SetzeZeit(object sender, EventArgs e)
-            => Zeit = Convert.ToString(startZeit - DateTime.Now)[0..8];
+        {
+            Zeit = Convert.ToString(startZeit - DateTime.Now)[0..8];
+
+            if ((startZeit - DateTime.Now).TotalSeconds <= 0 && !fertig)
+            {
+                RaiseEvent(new RoutedEventArgs(OnFinishEvent));
+                fertig = true;
+            }
+        }
     }
 }

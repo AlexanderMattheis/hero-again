@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using System;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace Hero.Pages
@@ -23,6 +24,14 @@ namespace Hero.Pages
         {
             InitializeComponent();
             Punkte = anzahlPunkte;
+
+            Loaded += Geladen;
+        }
+
+        private void Geladen(object sender, RoutedEventArgs e)
+        {
+            NavigationService.RemoveBackEntry();
+            Loaded -= Geladen;
         }
 
         private void NeustartButton_Click(object sender, RoutedEventArgs e)

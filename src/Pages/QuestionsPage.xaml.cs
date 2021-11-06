@@ -1,4 +1,5 @@
 ﻿using Hero.Pages.QuestionPageHelper;
+using System;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Navigation;
@@ -95,6 +96,14 @@ namespace Hero.Pages
             LadeFrage(0);
 
             Minuten = minuten;
+
+            Loaded += Geladen;
+        }
+
+        private void Geladen(object sender, RoutedEventArgs e)
+        {
+            NavigationService.RemoveBackEntry();
+            Loaded -= Geladen;
         }
 
         public void LadeFrage(int index)
@@ -124,6 +133,14 @@ namespace Hero.Pages
         private void QuestionDisplay_OnMisserfolg(object sender, RoutedEventArgs e)
         {
             LadeFrage(++aktuelleFrageIndex);
+        }
+
+        private void StatusBar_OnFinish(object sender, RoutedEventArgs e)
+        {
+            if (NavigationService != null) // Event kann noch gefeuert werden, wenn die Question Page gelöscht wird
+            {
+                NavigationService.Navigate(new EndePage(Punkte));
+            }
         }
     }
 }

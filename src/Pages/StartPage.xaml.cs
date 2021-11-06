@@ -23,6 +23,14 @@ namespace Hero.Pages
         public AnzahlTeamsPage()
         {
             InitializeComponent();
+
+            Loaded += Geladen;
+        }
+
+        private void Geladen(object sender, RoutedEventArgs e)
+        {
+            NavigationService.RemoveBackEntry();
+            Loaded -= Geladen;
         }
 
         private void Grid_KeyDown(object sender, KeyEventArgs e)

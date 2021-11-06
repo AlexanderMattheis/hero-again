@@ -72,7 +72,7 @@ namespace Hero.Controls
             remove { RemoveHandler(OnErfolgEvent, value); }
         }
 
-        public static readonly RoutedEvent OnErfolgEvent =
+        private static readonly RoutedEvent OnErfolgEvent =
             EventManager.RegisterRoutedEvent(nameof(OnErfolg), RoutingStrategy.Direct, typeof(RoutedEventHandler), typeof(QuestionDisplay));
 
         public event RoutedEventHandler OnMisserfolg
@@ -81,7 +81,7 @@ namespace Hero.Controls
             remove { RemoveHandler(OnMisserfolgEvent, value); }
         }
 
-        public static readonly RoutedEvent OnMisserfolgEvent =
+        private static readonly RoutedEvent OnMisserfolgEvent =
             EventManager.RegisterRoutedEvent(nameof(OnMisserfolg), RoutingStrategy.Direct, typeof(RoutedEventHandler), typeof(QuestionDisplay));
         #endregion
 
@@ -91,7 +91,7 @@ namespace Hero.Controls
             set => SetValue(KorrekteAntwortProperty, value);
         }
 
-        public static readonly DependencyProperty KorrekteAntwortProperty =
+        private static readonly DependencyProperty KorrekteAntwortProperty =
             DependencyProperty.Register(nameof(KorrekteAntwortIndex), typeof(int), typeof(QuestionDisplay), new PropertyMetadata(-1));
 
         public QuestionDisplay()
