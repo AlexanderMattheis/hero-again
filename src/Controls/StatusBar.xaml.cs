@@ -68,7 +68,7 @@ namespace Hero.Controls
             zeitgeber = new DispatcherTimer(new TimeSpan(0, 0, 0, 1, 0),
                 DispatcherPriority.Background, SetzeZeit, Dispatcher.CurrentDispatcher);
 
-            startZeit = DateTime.Now.AddSeconds(Minuten);
+            startZeit = DateTime.Now.AddMinutes(Minuten);
             zeitgeber.Start();
         }
 

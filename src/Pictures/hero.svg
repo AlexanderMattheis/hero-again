@@ -9,6 +9,9 @@
    id="svg5"
    sodipodi:docname="hero.svg"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:export-filename="B:\Repositories\hero-again\src\Pictures\hero.png"
+   inkscape:export-xdpi="500"
+   inkscape:export-ydpi="500"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -25,14 +28,14 @@
      inkscape:document-units="px"
      showgrid="false"
      units="px"
-     inkscape:zoom="0.74118965"
-     inkscape:cx="-45.8722"
-     inkscape:cy="134.24364"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1592"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
+     inkscape:zoom="0.52410025"
+     inkscape:cx="125.93011"
+     inkscape:cy="217.51564"
+     inkscape:window-width="1347"
+     inkscape:window-height="1032"
+     inkscape:window-x="2083"
+     inkscape:window-y="103"
+     inkscape:window-maximized="0"
      inkscape:current-layer="layer1"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
@@ -46,33 +49,12 @@
      inkscape:snap-text-baseline="true"
      inkscape:snap-midpoints="true"
      inkscape:snap-smooth-nodes="true"
-     inkscape:snap-object-midpoints="true" />
+     inkscape:snap-object-midpoints="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="false" />
   <defs
      id="defs2">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient2951">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop2947" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0;"
-         offset="1"
-         id="stop2949" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient1777">
-      <stop
-         style="stop-color:#f9f9f9;stop-opacity:1"
-         offset="0"
-         id="stop1773" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1"
-         offset="1"
-         id="stop1775" />
-    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient1189">
@@ -95,40 +77,6 @@
        y2="349.00742"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.89459513,0,0,0.89459513,16.864779,16.864779)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1777"
-       id="radialGradient1779"
-       cx="142.88878"
-       cy="148.77527"
-       fx="142.88878"
-       fy="148.77527"
-       r="87.599977"
-       gradientTransform="matrix(1,0,0,0.98632391,0,2.0346643)"
-       gradientUnits="userSpaceOnUse" />
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter2262"
-       x="-0.1902666"
-       y="-0.19283624"
-       width="1.3805332"
-       height="1.3856725">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="13.903594"
-         id="feGaussianBlur2264" />
-    </filter>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2951"
-       id="linearGradient2953"
-       x1="173.03264"
-       y1="105.23623"
-       x2="137.27931"
-       y2="346.40256"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.89459513,0,0,0.89459513,16.864779,16.864779)" />
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
@@ -141,6 +89,19 @@
          inkscape:collect="always"
          stdDeviation="3.5684682"
          id="feGaussianBlur3317" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter22336"
+       x="-0.13356646"
+       y="-0.13806103"
+       width="1.2670505"
+       height="1.2764912">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="9.0644699"
+         id="feGaussianBlur22338" />
     </filter>
   </defs>
   <g
@@ -155,7 +116,10 @@
        x="16.86478"
        y="16.86478"
        ry="36.812645"
-       rx="39.830074" />
+       rx="39.830074"
+       inkscape:export-filename="B:\Repositories\hero-again\src\Pictures\hero.png"
+       inkscape:export-xdpi="153.60001"
+       inkscape:export-ydpi="153.60001" />
     <rect
        style="fill:url(#linearGradient1191);fill-opacity:1;stroke-width:1.70648;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.82591, 6.82591"
        id="rect132"
@@ -164,42 +128,51 @@
        x="16.86478"
        y="16.86478"
        ry="36.812645"
-       rx="39.830074" />
+       rx="39.830074"
+       inkscape:export-filename="B:\Repositories\hero-again\src\Pictures\hero.png"
+       inkscape:export-xdpi="153.60001"
+       inkscape:export-ydpi="153.60001" />
     <path
        sodipodi:type="star"
-       style="fill:#aa0000;fill-opacity:1;stroke-width:1.577;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.308, 6.308;filter:url(#filter2262)"
-       id="path2090"
+       style="opacity:0.395;fill:#343434;fill-opacity:1;stroke:#ffffff;stroke-width:3.717;stroke-linecap:round;stroke-linejoin:round;filter:url(#filter22336)"
+       id="path22298"
        inkscape:flatsided="false"
        sodipodi:sides="5"
-       sodipodi:cx="139.64037"
-       sodipodi:cy="154.48138"
-       sodipodi:r1="51.915352"
-       sodipodi:r2="92.705986"
-       sodipodi:arg1="0.42779529"
-       sodipodi:arg2="1.0561138"
+       sodipodi:cx="629.95917"
+       sodipodi:cy="173.48846"
+       sodipodi:r1="93.132683"
+       sodipodi:r2="52.154301"
+       sodipodi:arg1="2.2432748"
+       sodipodi:arg2="2.8715934"
        inkscape:rounded="0.11"
        inkscape:randomized="0"
-       d="m 186.87724,176.01929 c -2.70067,5.92311 4.06485,55.95345 -1.60156,59.15793 -5.66641,3.20448 -45.05431,-28.37717 -51.52208,-29.11532 -6.46777,-0.73815 -51.958787,21.15647 -56.757449,16.75763 -4.798662,-4.39884 13.065744,-51.61822 11.769117,-57.99754 -1.296627,-6.37931 -36.177144,-42.87803 -33.476469,-48.80115 2.700676,-5.92311 53.129381,-3.52464 58.795791,-6.72912 5.66641,-3.20449 29.60008,-47.656555 36.06786,-46.918403 6.46777,0.738152 19.77001,49.439873 24.56868,53.838703 4.79866,4.39884 54.471,13.42467 55.76762,19.80399 1.29663,6.37932 -40.91083,34.08016 -43.61151,40.00328 z"
-       transform="matrix(1.0865721,0.9008535,-0.9008535,1.0865721,154.44151,-139.05529)" />
+       d="m 571.94433,246.34431 c -5.1159,-4.07376 9.49437,-52.6419 7.75003,-58.94469 -1.74434,-6.30279 -39.24628,-40.44849 -36.9528,-46.57285 2.29349,-6.12437 52.99935,-7.23755 58.45463,-10.8442 5.45528,-3.60664 26.34103,-49.824694 32.87437,-49.535994 6.53335,0.2887 23.26103,48.168854 28.37692,52.242614 5.11589,4.07377 55.52593,9.65513 57.27027,15.95792 1.74435,6.30279 -38.62324,37.00754 -40.91673,43.13191 -2.29348,6.12436 7.97589,55.79189 2.52061,59.39853 -5.45528,3.60664 -47.1315,-25.29693 -53.66485,-25.58563 -6.53334,-0.2887 -50.59656,24.82616 -55.71245,20.75239 z"
+       inkscape:transform-center-x="-1.9800669e-05"
+       inkscape:transform-center-y="-12.503484"
+       transform="matrix(1.4347503,-0.06339905,0.06339905,1.4347503,-754.83312,-37.747349)"
+       inkscape:export-filename="B:\Repositories\hero-again\src\Pictures\hero.png"
+       inkscape:export-xdpi="153.60001"
+       inkscape:export-ydpi="153.60001" />
     <path
        sodipodi:type="star"
-       style="fill:url(#radialGradient1779);fill-opacity:1;stroke-width:1.577;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.308, 6.308"
-       id="path28"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:3.717;stroke-linecap:round;stroke-linejoin:round"
+       id="path859"
        inkscape:flatsided="false"
        sodipodi:sides="5"
-       sodipodi:cx="139.64037"
-       sodipodi:cy="154.48138"
-       sodipodi:r1="51.915352"
-       sodipodi:r2="92.705986"
-       sodipodi:arg1="0.42779529"
-       sodipodi:arg2="1.0561138"
+       sodipodi:cx="629.95917"
+       sodipodi:cy="173.48846"
+       sodipodi:r1="93.132683"
+       sodipodi:r2="52.154301"
+       sodipodi:arg1="2.2432748"
+       sodipodi:arg2="2.8715934"
        inkscape:rounded="0.11"
        inkscape:randomized="0"
-       d="m 186.87724,176.01929 c -2.70067,5.92311 4.06485,55.95345 -1.60156,59.15793 -5.66641,3.20448 -45.05431,-28.37717 -51.52208,-29.11532 -6.46777,-0.73815 -51.958787,21.15647 -56.757449,16.75763 -4.798662,-4.39884 13.065744,-51.61822 11.769117,-57.99754 -1.296627,-6.37931 -36.177144,-42.87803 -33.476469,-48.80115 2.700676,-5.92311 53.129381,-3.52464 58.795791,-6.72912 5.66641,-3.20449 29.60008,-47.656555 36.06786,-46.918403 6.46777,0.738152 19.77001,49.439873 24.56868,53.838703 4.79866,4.39884 54.471,13.42467 55.76762,19.80399 1.29663,6.37932 -40.91083,34.08016 -43.61151,40.00328 z"
-       transform="matrix(0.97204211,0.80589915,-0.80589915,0.97204211,155.0274,-107.53341)" />
-    <path
-       id="rect2442"
-       style="fill:url(#linearGradient2953);fill-opacity:1;stroke-width:1.70648;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:6.82591, 6.82591"
-       d="m 160,144.39176 a 317.4864,158.7432 0 0 0 -143.135221,17.4184 v 104.51212 c 0,20.3942 17.76459,36.81294 39.830451,36.81294 h 206.60954 c 22.06586,0 39.83045,-16.41874 39.83045,-36.81294 V 161.47469 A 317.4864,158.7432 0 0 0 160,144.39176 Z" />
+       d="m 571.94433,246.34431 c -5.1159,-4.07376 9.49437,-52.6419 7.75003,-58.94469 -1.74434,-6.30279 -39.24628,-40.44849 -36.9528,-46.57285 2.29349,-6.12437 52.99935,-7.23755 58.45463,-10.8442 5.45528,-3.60664 26.34103,-49.824694 32.87437,-49.535994 6.53335,0.2887 23.26103,48.168854 28.37692,52.242614 5.11589,4.07377 55.52593,9.65513 57.27027,15.95792 1.74435,6.30279 -38.62324,37.00754 -40.91673,43.13191 -2.29348,6.12436 7.97589,55.79189 2.52061,59.39853 -5.45528,3.60664 -47.1315,-25.29693 -53.66485,-25.58563 -6.53334,-0.2887 -50.59656,24.82616 -55.71245,20.75239 z"
+       inkscape:transform-center-x="-1.5175275e-05"
+       inkscape:transform-center-y="-11.266326"
+       transform="matrix(1.2927886,-0.05712602,0.05712602,1.2927886,-664.31475,-17.070387)"
+       inkscape:export-filename="B:\Repositories\hero-again\src\Pictures\hero.png"
+       inkscape:export-xdpi="153.60001"
+       inkscape:export-ydpi="153.60001" />
   </g>
 </svg>

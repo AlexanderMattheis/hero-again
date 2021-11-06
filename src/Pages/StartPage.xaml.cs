@@ -27,7 +27,7 @@ namespace Hero.Pages
             Loaded += Geladen;
         }
 
-        private void Geladen(object sender, RoutedEventArgs e)
+        private void Geladen(object sender, RoutedEventArgs e) // nur zur Sicherheit
         {
             NavigationService.RemoveBackEntry();
             Loaded -= Geladen;

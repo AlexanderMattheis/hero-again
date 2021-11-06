@@ -1,5 +1,4 @@
-﻿using System;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
 
 namespace Hero.Pages
@@ -28,13 +27,13 @@ namespace Hero.Pages
             Loaded += Geladen;
         }
 
-        private void Geladen(object sender, RoutedEventArgs e)
+        private void Geladen(object sender, RoutedEventArgs e) // nur zur Sicherheit
         {
             NavigationService.RemoveBackEntry();
             Loaded -= Geladen;
         }
 
-        private void NeustartButton_Click(object sender, RoutedEventArgs e)
+        private void NeustartButton_Click(object sender, RoutedEventArgs e) 
         {
             NavigationService.Navigate(new AnzahlTeamsPage());
         }
