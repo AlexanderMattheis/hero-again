@@ -8,21 +8,10 @@ namespace Hero.Pages
     /// </summary>
     public partial class EndePage : Page
     {
-        private const int START_PUNKTE = 0;
-
-        public int Punkte
-        {
-            get => (int)GetValue(PunktAnzahlProperty);
-            set => SetValue(PunktAnzahlProperty, value);
-        }
-
-        public static readonly DependencyProperty PunktAnzahlProperty =
-            DependencyProperty.Register(nameof(Punkte), typeof(int), typeof(EndePage), new PropertyMetadata(START_PUNKTE));
-
-        public EndePage(int anzahlPunkte)
+        public EndePage(int gesamtzahlPunkte)
         {
             InitializeComponent();
-            Punkte = anzahlPunkte;
+            ((EndePageViewModel)DataContext).Punkte = gesamtzahlPunkte;
 
             Loaded += Geladen;
         }
@@ -35,7 +24,7 @@ namespace Hero.Pages
 
         private void NeustartButton_Click(object sender, RoutedEventArgs e) 
         {
-            NavigationService.Navigate(new AnzahlTeamsPage());
+            NavigationService.Navigate(new StartPage());
         }
 
         private void VerlassenButton_Click(object sender, RoutedEventArgs e)

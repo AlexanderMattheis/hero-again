@@ -7,23 +7,11 @@ namespace Hero.Pages
     /// <summary>
     /// Interaktionslogik für AnzahlTeamsPage.xaml
     /// </summary>
-    public partial class AnzahlTeamsPage : Page
+    public partial class StartPage : Page
     {
-        private const int START_MINUTEN = 30;
-
-        public int Minuten
-        {
-            get => (int)GetValue(MinutenProperty);
-            set => SetValue(MinutenProperty, value);
-        }
-
-        public static readonly DependencyProperty MinutenProperty =
-            DependencyProperty.Register(nameof(Minuten), typeof(int), typeof(AnzahlTeamsPage), new PropertyMetadata(START_MINUTEN));
-
-        public AnzahlTeamsPage()
+        public StartPage()
         {
             InitializeComponent();
-
             Loaded += Geladen;
         }
 
@@ -33,11 +21,11 @@ namespace Hero.Pages
             Loaded -= Geladen;
         }
 
-        private void Grid_KeyDown(object sender, KeyEventArgs e)
+        private void StartPage_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.Enter)
             {
-                NavigationService.Navigate(new QuestionPage(Minuten));
+                NavigationService.Navigate(new QuestionPage(((StartPageViewModel)DataContext).Minuten));
             }
         }
     }

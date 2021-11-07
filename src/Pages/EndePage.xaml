@@ -4,11 +4,16 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:Hero.Pages"
       mc:Ignorable="d" 
       MinHeight="720" MinWidth="1280"
       FontSize="18"
       Title="EndePage">
-    
+
+    <Page.DataContext>
+        <local:EndePageViewModel />
+    </Page.DataContext>
+
     <Grid Background="{StaticResource BackgroundColorBrush}">
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>
@@ -18,15 +23,15 @@
 
         <Grid Background="White" Grid.Row="1" Margin="0 25">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="3.5*"/>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="3.5*"/>
             </Grid.ColumnDefinitions>
             
             <Viewbox Stretch="Uniform" Grid.Column="1">
                 <StackPanel>
-                    <Label FontWeight="Bold" Foreground="DarkRed" HorizontalAlignment="Center">Finale Punktanzahl</Label>
-                    <Label Foreground="DarkRed" HorizontalAlignment="Center" Content="{Binding ElementName=Self, Path=Punkte, Mode=OneWay}" d:Content="0"/>
+                    <Label FontWeight="Bold" Foreground="DarkRed" HorizontalAlignment="Center" Content="{Binding FinalePunktzahlString}"/>
+                    <Label Foreground="DarkRed" HorizontalAlignment="Center" Content="{Binding Punkte}" d:Content="0"/>
                 </StackPanel>
             </Viewbox>
         </Grid>
@@ -40,8 +45,8 @@
 
             <Viewbox Stretch="Uniform" Grid.Column="1">
                 <StackPanel Grid.Column="1">
-                    <Button x:Name="NeustartButton" Style="{StaticResource EckigerButton}" Click="NeustartButton_Click">Neustart</Button>
-                    <Button x:Name="VerlassenButton" Style="{StaticResource EckigerButton}" Click="VerlassenButton_Click">Verlassen</Button>
+                    <Button x:Name="NeustartButton" Style="{StaticResource EckigerButton}" Click="NeustartButton_Click" Content="{Binding NeustartString}"/>
+                    <Button x:Name="VerlassenButton" Style="{StaticResource EckigerButton}" Click="VerlassenButton_Click" Content="{Binding VerlassenString}"/>
                 </StackPanel>
             </Viewbox>
         </Grid>

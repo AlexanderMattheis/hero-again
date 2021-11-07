@@ -61,6 +61,42 @@ namespace Hero {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Finale Punktzahl ähnelt.
+        /// </summary>
+        internal static string FinalePunktzahl {
+            get {
+                return ResourceManager.GetString("FinalePunktzahl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Minuten ähnelt.
+        /// </summary>
+        internal static string Minuten {
+            get {
+                return ResourceManager.GetString("Minuten", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Neustart ähnelt.
+        /// </summary>
+        internal static string Neustart {
+            get {
+                return ResourceManager.GetString("Neustart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Punkte ähnelt.
+        /// </summary>
+        internal static string Punkte {
+            get {
+                return ResourceManager.GetString("Punkte", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die [keine Fragen oder keine Fragen gesetzt] ähnelt.
         /// </summary>
         internal static string StandardFrage {
@@ -75,6 +111,24 @@ namespace Hero {
         internal static string StandardOption {
             get {
                 return ResourceManager.GetString("StandardOption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Verlassen ähnelt.
+        /// </summary>
+        internal static string Verlassen {
+            get {
+                return ResourceManager.GetString("Verlassen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Zeit ähnelt.
+        /// </summary>
+        internal static string Zeit {
+            get {
+                return ResourceManager.GetString("Zeit", resourceCulture);
             }
         }
     }

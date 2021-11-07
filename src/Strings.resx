@@ -117,10 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="FinalePunktzahl" xml:space="preserve">
+    <value>Finale Punktzahl</value>
+  </data>
+  <data name="Minuten" xml:space="preserve">
+    <value>Minuten</value>
+  </data>
+  <data name="Neustart" xml:space="preserve">
+    <value>Neustart</value>
+  </data>
+  <data name="Punkte" xml:space="preserve">
+    <value>Punkte</value>
+  </data>
   <data name="StandardFrage" xml:space="preserve">
     <value>[keine Fragen oder keine Fragen gesetzt]</value>
   </data>
   <data name="StandardOption" xml:space="preserve">
     <value>[keine Option]</value>
+  </data>
+  <data name="Verlassen" xml:space="preserve">
+    <value>Verlassen</value>
+  </data>
+  <data name="Zeit" xml:space="preserve">
+    <value>Zeit</value>
   </data>
 </root>

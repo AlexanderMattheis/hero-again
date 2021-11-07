@@ -85,14 +85,14 @@ namespace Hero.Controls
             EventManager.RegisterRoutedEvent(nameof(OnMisserfolg), RoutingStrategy.Direct, typeof(RoutedEventHandler), typeof(QuestionDisplay));
         #endregion
 
-        public int KorrekteAntwortIndex
+        public int AntwortIndex
         {
-            get => (int)GetValue(KorrekteAntwortProperty);
-            set => SetValue(KorrekteAntwortProperty, value);
+            get => (int)GetValue(AntwortProperty);
+            set => SetValue(AntwortProperty, value);
         }
 
-        private static readonly DependencyProperty KorrekteAntwortProperty =
-            DependencyProperty.Register(nameof(KorrekteAntwortIndex), typeof(int), typeof(QuestionDisplay), new PropertyMetadata(-1));
+        private static readonly DependencyProperty AntwortProperty =
+            DependencyProperty.Register(nameof(AntwortIndex), typeof(int), typeof(QuestionDisplay), new PropertyMetadata(-1));
 
         public QuestionDisplay()
         {
@@ -110,7 +110,7 @@ namespace Hero.Controls
                 _ => throw new System.NotImplementedException(),
             };
 
-            if (selektierteAntwortIndex == KorrekteAntwortIndex - 1)
+            if (selektierteAntwortIndex == AntwortIndex - 1)
             {
                 RaiseEvent(new RoutedEventArgs(OnErfolgEvent));
             }
