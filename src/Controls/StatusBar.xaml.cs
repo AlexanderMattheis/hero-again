@@ -45,6 +45,10 @@ namespace Hero.Controls
 
         public static readonly DependencyProperty MinutenProperty =
             DependencyProperty.Register(nameof(Minuten), typeof(int), typeof(StatusBar), new PropertyMetadata(0));
+
+        public string PunkteString { get; }
+
+        public string ZeitString { get; }
         #endregion
 
         public event RoutedEventHandler OnFinish
@@ -61,6 +65,9 @@ namespace Hero.Controls
             InitializeComponent();
             Loaded += Geladen; // damit erst nach Platzierung und Initialisierung beginnt
             Unloaded += Ungeladen;
+
+            PunkteString = Strings.Punkte;
+            ZeitString = Strings.Zeit;
         }
 
         private void Geladen(object sender, EventArgs e)

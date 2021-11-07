@@ -12,7 +12,7 @@ namespace Hero
         public MainWindow()
         {
             InitializeComponent();
-            AnzeigeFrame.Content = new AnzahlTeamsPage();
+            AnzeigeFrame.Content = new StartPage();
         }
     }
 }

@@ -5,7 +5,7 @@ namespace Hero.Pages.QuestionPageHelper
 {
     public class FragenLoader
     {
-        public record Frage(string Text, string OptionA, string OptionB, string OptionC, string OptionD, int korrektAntwort);
+        public record Frage(string Text, string OptionA, string OptionB, string OptionC, string OptionD, int AntwortIndex);
 
         private const string FRAGEN_PFAD = @"Data\Fragen.xml";
 

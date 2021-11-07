@@ -1,13 +1,18 @@
 ﻿<Page x:Class="Hero.Pages.QuestionPage"
-      x:Name="Self"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Hero.Pages"
       xmlns:controls="clr-namespace:Hero.Controls"
       mc:Ignorable="d" 
       MinHeight="720" MinWidth="1280"
       Title="QuestionsPage">
+
+    <Page.DataContext>
+        <local:QuestionPageViewModel />
+    </Page.DataContext>
+
     <Grid Background="{StaticResource BackgroundColorBrush}">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -15,16 +20,15 @@
             <RowDefinition Height="8*"/>
         </Grid.RowDefinitions>
 
-        <controls:StatusBar Punkte="{Binding ElementName=Self, Path=Punkte, Mode=OneWay}" 
-                            Minuten="{Binding ElementName=Self, Path=Minuten, Mode=OneWay}"
-                            OnFinish="StatusBar_OnFinish"/>
+        <controls:StatusBar Punkte="{Binding Punkte}" Minuten="{Binding Minuten}" OnFinish="StatusBar_OnFinish"/>
+        
         <controls:QuestionDisplay Grid.Row="2" 
-                                  Frage="{Binding ElementName=Self, Path=Frage, Mode=OneWay}"
-                                  OptionA="{Binding ElementName=Self, Path=OptionA, Mode=OneWay}"
-                                  OptionB="{Binding ElementName=Self, Path=OptionB, Mode=OneWay}"
-                                  OptionC="{Binding ElementName=Self, Path=OptionC, Mode=OneWay}"
-                                  OptionD="{Binding ElementName=Self, Path=OptionD, Mode=OneWay}"
-                                  KorrekteAntwortIndex="{Binding ElementName=Self, Path=KorrekteAntwortIndex, Mode=OneWay}"
+                                  Frage="{Binding Frage.Text}"
+                                  OptionA="{Binding Frage.OptionA}"
+                                  OptionB="{Binding Frage.OptionB}"
+                                  OptionC="{Binding Frage.OptionC}"
+                                  OptionD="{Binding Frage.OptionD}"
+                                  AntwortIndex="{Binding Frage.AntwortIndex}"
                                   OnErfolg="QuestionDisplay_OnErfolg" 
                                   OnMisserfolg="QuestionDisplay_OnMisserfolg"/>
     </Grid>
