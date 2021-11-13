@@ -1,33 +1,33 @@
 <quiz>
-  <!-- Astronomy -->
-  <frage>
-    <text>What is meant by inflationary expansion?</text>
-    <optionA>A theory about exponentially increasing space in early universe</optionA>
-    <optionB>A theory about exponentially many metorite impacts on the young earth</optionB>
-    <optionC>A theory about exponentially many atoms in molecular bonds</optionC>
-    <optionD>A theory about exponentially increasing number of species before humans conquered the worlds</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<!-- Astronomy -->
+	<frage>
+		<text>What is meant by inflationary expansion?</text>
+		<optionA>A theory about exponentially increasing space in early universe</optionA>
+		<optionB>A theory about exponentially many metorite impacts on the young earth</optionB>
+		<optionC>A theory about exponentially many atoms in molecular bonds</optionC>
+		<optionD>A theory about exponentially increasing number of species before humans conquered the worlds</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>How large is the excess of matter compared to antimatter at the big bang assumed to be?</text>
-    <optionA>One trillionth</optionA>
-    <optionB>One billionth </optionB>
-    <optionC>One millionth</optionC>
-    <optionD>One hundredth</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>How large is the excess of matter compared to antimatter at the big bang assumed to be?</text>
+		<optionA>One trillionth</optionA>
+		<optionB>One billionth </optionB>
+		<optionC>One millionth</optionC>
+		<optionD>One hundredth</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <frage>
-    <text>What is the ratio of atoms to dark matter to dark energy?</text>
-    <optionA>1:80:19</optionA>
-    <optionB>5:26:69</optionB>
-    <optionC>29:31:40</optionC>
-    <optionD>45:32:23</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>What is the ratio of atoms to dark matter to dark energy?</text>
+		<optionA>1:80:19</optionA>
+		<optionB>5:26:69</optionB>
+		<optionC>29:31:40</optionC>
+		<optionD>45:32:23</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <!--     <frage>
+	<!--     <frage>
         <text>What do Fraunhofer lines allow?</text>
         <optionA>To determine the elements composition of distant stars</optionA>
         <optionB>To draw the Pythogoras triangle in four-dimensional space</optionB>
@@ -36,26 +36,26 @@
         <antwort>1,3,4</antwort>
     </frage> -->
 
-  <frage>
-    <text>Which moon belongs to the planet Saturn?</text>
-    <optionA>Titan</optionA>
-    <optionB>Io</optionB>
-    <optionC>Phobos</optionC>
-    <optionD>Charon</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>Which moon belongs to the planet Saturn?</text>
+		<optionA>Titan</optionA>
+		<optionB>Io</optionB>
+		<optionC>Phobos</optionC>
+		<optionD>Charon</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>When did Konstantin Eduardowitsch Ziolkowski come up with the idea for the space lift?</text>
-    <optionA>1232</optionA>
-    <optionB>1895</optionB>
-    <optionC>1957</optionC>
-    <optionD>1969</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>When did Konstantin Eduardowitsch Ziolkowski come up with the idea for the space lift?</text>
+		<optionA>1232</optionA>
+		<optionB>1895</optionB>
+		<optionC>1957</optionC>
+		<optionD>1969</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <!-- Biology -->
-  <!-- 	<frage>
+	<!-- Biology -->
+	<!-- 	<frage>
         <text>Which of these statements about bees are true?</text>
         <optionA>Bees do not hibernate, they build a winter cluster<optionA>
         <optionB>Drones do not have a sting</optionB>
@@ -64,43 +64,187 @@
         <antwort>1,2,3,4</antwort>
     </frage> -->
 
-  <frage>
-    <text>Systolic and diastolic blood pressure are...</text>
-    <optionA>minimum and maximum pressure</optionA>
-    <optionB>maximum and minimum pressure</optionB>
-    <optionC>maximum and average pressure</optionC>
-    <optionD>average and maximum pressure</optionD>
-    <antwort>2</antwort>
-  </frage>
-  
-  <frage>
-    <text>What are our flavors called?</text>
-    <optionA>sweet, sour, bitter, salty and oleogustus</optionA>
-    <optionB>sweet, sour, bitter, salty and pungency</optionB>
-    <optionC>sweet, sour, bitter, salty and umami</optionC>
-    <optionD>sweet, sour, bitter, salty and sharp</optionD>
-    <antwort>3</antwort>
-  </frage>
-  
-  <frage>
-    <text>What are the mouth tools of insects and crustaceans called?</text>
-    <optionA>Mandibles</optionA>
-    <optionB>Tibia</optionB>
-    <optionC>Caput</optionC>
-    <optionD>Thorax</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>The study of Hereditary changes without DNA sequence alteration is called..</text>
+		<optionA>Morphogenetics</optionA>
+		<optionB>Psychogenetics</optionB>
+		<optionC>Immunogenetics</optionC>
+		<optionD>Epigenetics</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>In which group of insects do flies belong?</text>
-    <optionA>Lepidoptera</optionA>
-    <optionB>Orthoptera</optionB>
-    <optionC>Hymenoptera</optionC>
-    <optionD>Diptera</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>What do the H and N in H5N1 stand for?</text>
+		<optionA>Hemagglutinin and Neuraminidase</optionA>
+		<optionB>Hemoglobin and Neurasthenie</optionB>
+		<optionC>Haemorrhoid and Neutropenia</optionC>
+		<optionD>Hemorrhage and Neurodermatitis</optionD>
+		<antwort>1</antwort>
+	</frage>
+	
+	<frage>
+		<text>Whose theory seems to be partially correct after more than 200 years? The theory of...</text>
+		<optionA>Albert Einstein about Relativity</optionA>
+		<optionB>Jean-Baptiste de Lamarck about Evolution</optionB>
+		<optionC>Max Planck about Quantum</optionC>
+		<optionD>Denham Harman about Aging</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <!--     <frage>
+	<frage>
+		<text>What are proteins made of?</text>
+		<optionA>Amino acids</optionA>
+		<optionB>Hydrochloric acids</optionB>
+		<optionC>Carbonic acids</optionC>
+		<optionD>Sulfuric acids</optionD>
+		<antwort>1</antwort>
+	</frage>
+
+	<frage>
+		<text>How many amino acids are non-essential, semi-essential and essential for humans?</text>
+		<optionA>8:4:9</optionA>
+		<optionB>10:2:9</optionB>
+		<optionC>6:6:9</optionC>
+		<optionD>8:2:11</optionD>
+		<antwort>2</antwort>
+	</frage>
+
+	<frage>
+		<text>Which two amino acids are essential for pregnant women and children?</text>
+		<optionA>Arginine and Histidine</optionA>
+		<optionB>Alanine and Isoleucine</optionB>
+		<optionC>Cysteine and Tyrosine</optionC>
+		<optionD>Glutamine and Glycine</optionD>
+		<antwort>3</antwort>
+	</frage>
+
+	<frage>
+		<text>What are alpha helix and beta sheet structures?</text>
+		<optionA>Primary structures</optionA>
+		<optionB>Secondary structures</optionB>
+		<optionC>Tertiary structures</optionC>
+		<optionD>Quaternary structures</optionD>
+		<antwort>2</antwort>
+	</frage>
+
+	<frage>
+		<text>DNA to RNA and RNA to Protein is called...</text>
+		<optionA>Transcription and Translation</optionA>
+		<optionB>Translation and Transcription</optionB>
+		<optionC>Perception and Transduction</optionC>
+		<optionD>Transduction and Perception</optionD>
+		<antwort>1</antwort>
+	</frage>
+	
+	<frage>
+		<text>What disease used to be detected by a urine taste test?</text>
+		<optionA>Arthrosis</optionA>
+		<optionB>Borreliosis</optionB>
+		<optionC>Chlamydial infection</optionC>
+		<optionD>Diabetic mellitus</optionD>
+		<antwort>4</antwort>
+	</frage>
+
+	<frage>
+		<text>Who discovered DNA in 1869?</text>
+		<optionA>Friedrich Merz</optionA>
+		<optionB>Friedrich Miescher</optionB>
+		<optionC>Friedrich Nietzsche</optionC>
+		<optionD>Friedrich Wilhelm</optionD>
+		<antwort>2</antwort>
+	</frage>
+
+	<frage>
+		<text>People of which blood group can tolerate most other blood groups?</text>
+		<optionA>0+</optionA>
+		<optionB>A+</optionB>
+		<optionC>B+</optionC>
+		<optionD>AB+</optionD>
+		<antwort>4</antwort>
+	</frage>
+
+	<frage>
+		<text>Who invented in 1901 the ABO blood group system?</text>
+		<optionA>Adolf von Baeyer</optionA>
+		<optionB>Sir Alexander Flemming</optionB>
+		<optionC>Karl Landsteiner</optionC>
+		<optionD>Robert Koch</optionD>
+		<antwort>3</antwort>
+	</frage>
+
+	<frage>
+		<text>What is the rough number of cones and rods in a human eye?</text>
+		<optionA>7 and 120 Million</optionA>
+		<optionB>14 and 54 Million</optionB>
+		<optionC>74 and 100 Million</optionC>
+		<optionD>90 and 14 Million</optionD>
+		<antwort>1</antwort>
+	</frage>
+	
+	<frage>
+		<text>What percentage of men are red / green blind?</text>
+		<optionA>about 0.8-0.9 Percent</optionA>
+		<optionB>about 8-9 Percent</optionB>
+		<optionC>about 16-18 Percent</optionC>
+		<optionD>about 32-36 Percent</optionD>
+		<antwort>2</antwort>
+	</frage>
+	
+	<frage>
+		<text>What is the technical name for the rubber tree?</text>
+		<optionA>Hevea</optionA>
+		<optionB>Bambusoideae</optionB>
+		<optionC>Arecaceae</optionC>
+		<optionD>Cactus</optionD>
+		<antwort>1</antwort>
+	</frage>
+	
+	<frage>
+		<text>What is supposed to be quite unhealthy for babies?</text>
+		<optionA>left turning yoghurt</optionA>
+		<optionB>naked running leave</optionB>
+		<optionC>blue rotating mirror</optionC>
+		<optionD>crazy moving fridge</optionD>
+		<antwort>1</antwort>
+	</frage>
+
+	<frage>
+		<text>Systolic and diastolic blood pressure are...</text>
+		<optionA>minimum and maximum pressure</optionA>
+		<optionB>maximum and minimum pressure</optionB>
+		<optionC>maximum and average pressure</optionC>
+		<optionD>average and maximum pressure</optionD>
+		<antwort>2</antwort>
+	</frage>
+
+	<frage>
+		<text>What are our flavors called?</text>
+		<optionA>sweet, sour, bitter, salty and oleogustus</optionA>
+		<optionB>sweet, sour, bitter, salty and pungency</optionB>
+		<optionC>sweet, sour, bitter, salty and umami</optionC>
+		<optionD>sweet, sour, bitter, salty and sharp</optionD>
+		<antwort>3</antwort>
+	</frage>
+
+	<frage>
+		<text>What are the mouth tools of insects and crustaceans called?</text>
+		<optionA>Mandibles</optionA>
+		<optionB>Tibia</optionB>
+		<optionC>Caput</optionC>
+		<optionD>Thorax</optionD>
+		<antwort>1</antwort>
+	</frage>
+
+	<frage>
+		<text>In which group of insects do flies belong?</text>
+		<optionA>Lepidoptera</optionA>
+		<optionB>Orthoptera</optionB>
+		<optionC>Hymenoptera</optionC>
+		<optionD>Diptera</optionD>
+		<antwort>4</antwort>
+	</frage>
+
+	<!--     <frage>
         <text>What are the butterflies called in Germany that look like hummingbirds?</text>
         <optionA>Kolibrischwärmer</optionA>
         <optionB>Taubenschwänzchen</optionB>
@@ -109,34 +253,34 @@
         <antwort>1,2</antwort>
     </frage> -->
 
-  <frage>
-    <text>Which statement about ants is true for most species?</text>
-    <optionA>Only queens have wings</optionA>
-    <optionB>Only male ants have no wings</optionB>
-    <optionC>Only female ants have wings</optionC>
-    <optionD>Only queens and male ants have wings</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>Which statement about ants is true for most species?</text>
+		<optionA>Only queens have wings</optionA>
+		<optionB>Only male ants have no wings</optionB>
+		<optionC>Only female ants have wings</optionC>
+		<optionD>Only queens and male ants have wings</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>How is the birdlike dinosaur from which our birds originated called?</text>
-    <optionA>Archaeopteryx</optionA>
-    <optionB>Vercingetoryx</optionB>
-    <optionC>Oslomernyx</optionC>
-    <optionD>Ostorotyx</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>How is the birdlike dinosaur from which our birds originated called?</text>
+		<optionA>Archaeopteryx</optionA>
+		<optionB>Vercingetoryx</optionB>
+		<optionC>Oslomernyx</optionC>
+		<optionD>Ostorotyx</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>How loud can the lutes that bats make be in the maximum?</text>
-    <optionA>Below 50 dB</optionA>
-    <optionB>Between 50 dB and 80 dB</optionB>
-    <optionC>Between 80 dB and 110 dB</optionC>
-    <optionD>Over 110 dB</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>How loud can the lutes that bats make be in the maximum?</text>
+		<optionA>Below 50 dB</optionA>
+		<optionB>Between 50 dB and 80 dB</optionB>
+		<optionC>Between 80 dB and 110 dB</optionC>
+		<optionD>Over 110 dB</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <!--<frage>
+	<!--<frage>
     <text>For which female arthropods it is claimed that it eats the male after copulation?</text>
     <optionA>Mantis</optionA>
     <optionB>Black Widow</optionB>
@@ -145,16 +289,16 @@
     <antwort>1,2</antwort>
   </frage>-->
 
-  <frage>
-    <text>To which suborder do bees, wasps and ants belong in Germany?</text>
-    <optionA>Stechimmen</optionA>
-    <optionB>Legimmen</optionB>
-    <optionC>Fimmen</optionC>
-    <optionD>Bisimmen</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>To which suborder do bees, wasps and ants belong in Germany?</text>
+		<optionA>Stechimmen</optionA>
+		<optionB>Legimmen</optionB>
+		<optionC>Fimmen</optionC>
+		<optionD>Bisimmen</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <!-- 	<frage>
+	<!-- 	<frage>
         <text>What are the differences between Microbats and Megabats?</text>
         <optionA>Microbats use echolocation and Megabats don't<optionA>
         <optionB>Microbats are usually smaller than Megabats</optionB>
@@ -163,34 +307,34 @@
         <antwort>1,2,3</antwort>
     </frage> -->
 
-  <frage>
-    <text>How is the change of feathers called in Germany?</text>
-    <optionA>Mauser</optionA>
-    <optionB>Torpor</optionB>
-    <optionC>Fetten</optionC>
-    <optionD>Atzen</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>How is the change of feathers called in Germany?</text>
+		<optionA>Mauser</optionA>
+		<optionB>Torpor</optionB>
+		<optionC>Fetten</optionC>
+		<optionD>Atzen</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>When did the dinosaurs become extinct? About ...</text>
-    <optionA>15 million years ago</optionA>
-    <optionB>30 million years ago</optionB>
-    <optionC>45 million years ago</optionC>
-    <optionD>65 million years ago</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>When did the dinosaurs become extinct? About ...</text>
+		<optionA>15 million years ago</optionA>
+		<optionB>30 million years ago</optionB>
+		<optionC>45 million years ago</optionC>
+		<optionD>65 million years ago</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>Which carbon isotope is used due to its half-life of 5730 years for determining the age of a living being?</text>
-    <optionA>C11</optionA>
-    <optionB>C12</optionB>
-    <optionC>C13</optionC>
-    <optionD>C14</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>Which carbon isotope is used due to its half-life of 5730 years for determining the age of a living being?</text>
+		<optionA>C11</optionA>
+		<optionB>C12</optionB>
+		<optionC>C13</optionC>
+		<optionD>C14</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <!-- 	<frage>
+	<!-- 	<frage>
         <text>What are key differences between gram positive bacteria in relation to gram negative bacteria?</text>
         <optionA>an additional outer membrane</optionA>
         <optionB>no additional outer membrane</optionB>
@@ -199,142 +343,142 @@
         <antwort>2,3</antwort>
     </frage> -->
 
-  <frage>
-    <text>Another name for the Krebs cycle is ...</text>
-    <optionA>cancer cycle</optionA>
-    <optionB>citric acid cycle</optionB>
-    <optionC>water cycle</optionC>
-    <optionD>oxygen cycle</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>Another name for the Krebs cycle is ...</text>
+		<optionA>cancer cycle</optionA>
+		<optionB>citric acid cycle</optionB>
+		<optionC>water cycle</optionC>
+		<optionD>oxygen cycle</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <frage>
-    <text>What do anaerobic mean? Absence of ...</text>
-    <optionA>oxygen</optionA>
-    <optionB>carbon dioxide</optionB>
-    <optionC>nitrogen</optionC>
-    <optionD>steam</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>What do anaerobic mean? Absence of ...</text>
+		<optionA>oxygen</optionA>
+		<optionB>carbon dioxide</optionB>
+		<optionC>nitrogen</optionC>
+		<optionD>steam</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>What happens during glycolysis?</text>
-    <optionA>sugar is decomposed</optionA>
-    <optionB>fat is decomposed</optionB>
-    <optionC>proteins are decomposed</optionC>
-    <optionD>minerals are decomposed</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>What happens during glycolysis?</text>
+		<optionA>sugar is decomposed</optionA>
+		<optionB>fat is decomposed</optionB>
+		<optionC>proteins are decomposed</optionC>
+		<optionD>minerals are decomposed</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>What do ribosomes do?</text>
-    <optionA>using carbon dioxide and water to create oxygen and sugar</optionA>
-    <optionB>using oxygen to gain energy in the form of ATP</optionB>
-    <optionC>translate mRNA into proteins</optionC>
-    <optionD>deliver right amino acids</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<frage>
+		<text>What do ribosomes do?</text>
+		<optionA>using carbon dioxide and water to create oxygen and sugar</optionA>
+		<optionB>using oxygen to gain energy in the form of ATP</optionB>
+		<optionC>translate mRNA into proteins</optionC>
+		<optionD>deliver right amino acids</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <frage>
-    <text>Which statement is true according to the endosymbiont theory?</text>
-    <optionA>mitochondria and chloroplasts were bacteria</optionA>
-    <optionB>organisms can inherit traits that they have acquired during their lifetime</optionB>
-    <optionC>all living organisms are made up of cells</optionC>
-    <optionD>material carriers of heredity are only in the cell nucleus</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>Which statement is true according to the endosymbiont theory?</text>
+		<optionA>mitochondria and chloroplasts were bacteria</optionA>
+		<optionB>organisms can inherit traits that they have acquired during their lifetime</optionB>
+		<optionC>all living organisms are made up of cells</optionC>
+		<optionD>material carriers of heredity are only in the cell nucleus</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>Which enzyme in saliva breaks down Glucose?</text>
-    <optionA>Amylase</optionA>
-    <optionB>Pepsin</optionB>
-    <optionC>Lactase</optionC>
-    <optionD>Malstase</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>Which enzyme in saliva breaks down Glucose?</text>
+		<optionA>Amylase</optionA>
+		<optionB>Pepsin</optionB>
+		<optionC>Lactase</optionC>
+		<optionD>Malstase</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>What is the order of the intestine?</text>
-    <optionA>Small Intestine, Duodenum and Large Intestine</optionA>
-    <optionB>Duodenum, Small Intestine and Large Intestine</optionB>
-    <optionC>Large Intestine, Duodenum and Small Intestine</optionC>
-    <optionD>Large Intestine, Small Intestine and Duodenum</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>What is the order of the intestine?</text>
+		<optionA>Small Intestine, Duodenum and Large Intestine</optionA>
+		<optionB>Duodenum, Small Intestine and Large Intestine</optionB>
+		<optionC>Large Intestine, Duodenum and Small Intestine</optionC>
+		<optionD>Large Intestine, Small Intestine and Duodenum</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <frage>
-    <text>How much does the microbiome weigh on average in an adult human?</text>
-    <optionA>2 g</optionA>
-    <optionB>20 g</optionB>
-    <optionC>200 g</optionC>
-    <optionD>2000 g</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>How much does the microbiome weigh on average in an adult human?</text>
+		<optionA>2 g</optionA>
+		<optionB>20 g</optionB>
+		<optionC>200 g</optionC>
+		<optionD>2000 g</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>Why shouldn't you eat green parts on potatoes?</text>
-    <optionA>Lignin</optionA>
-    <optionB>Pepsin</optionB>
-    <optionC>Solanin</optionC>
-    <optionD>Adenin</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<frage>
+		<text>Why shouldn't you eat green parts on potatoes?</text>
+		<optionA>Lignin</optionA>
+		<optionB>Pepsin</optionB>
+		<optionC>Solanin</optionC>
+		<optionD>Adenin</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <frage>
-    <text>What is Cellulose and Chitin biologically?</text>
-    <optionA>Minerals</optionA>
-    <optionB>Fat</optionB>
-    <optionC>Protein</optionC>
-    <optionD>Sugar</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>What is Cellulose and Chitin biologically?</text>
+		<optionA>Minerals</optionA>
+		<optionB>Fat</optionB>
+		<optionC>Protein</optionC>
+		<optionD>Sugar</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>How many synapses do humans have? About ...</text>
-    <optionA>125 million synapses</optionA>
-    <optionB>125 billion synapses</optionB>
-    <optionC>125 trillion synapses</optionC>
-    <optionD>125 quadrillion synapses</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<frage>
+		<text>How many synapses do humans have? About ...</text>
+		<optionA>125 million synapses</optionA>
+		<optionB>125 billion synapses</optionB>
+		<optionC>125 trillion synapses</optionC>
+		<optionD>125 quadrillion synapses</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <frage>
-    <text>What are cell membranes of humans made of?</text>
-    <optionA>Monoxide</optionA>
-    <optionB>Acids</optionB>
-    <optionC>Lipids</optionC>
-    <optionD>Peptide</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<frage>
+		<text>What are cell membranes of humans made of?</text>
+		<optionA>Monoxide</optionA>
+		<optionB>Acids</optionB>
+		<optionC>Lipids</optionC>
+		<optionD>Peptide</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <frage>
-    <text>What does chirality mean?</text>
-    <optionA>just not mirror symmetrical</optionA>
-    <optionB>mirror symmetrical</optionB>
-    <optionC>not symmetrical at all</optionC>
-    <optionD>antisymmetrical</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>What does chirality mean?</text>
+		<optionA>just not mirror symmetrical</optionA>
+		<optionB>mirror symmetrical</optionB>
+		<optionC>not symmetrical at all</optionC>
+		<optionD>antisymmetrical</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>Which fats are not recognized by digestive enzymes?</text>
-    <optionA>hydrogenated fats</optionA>
-    <optionB>vegetable fats</optionB>
-    <optionC>animal fats</optionC>
-    <optionD>unhydrogenated fats</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>Which fats are not recognized by digestive enzymes?</text>
+		<optionA>hydrogenated fats</optionA>
+		<optionB>vegetable fats</optionB>
+		<optionC>animal fats</optionC>
+		<optionD>unhydrogenated fats</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>What is mRNA?</text>
-    <optionA>a template read from DNA for a protein</optionA>
-    <optionB>a transporter for amino acids</optionB>
-    <optionC>RNA of ribosomes</optionC>
-    <optionD>a non-coding RNA</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>What is mRNA?</text>
+		<optionA>a template read from DNA for a protein</optionA>
+		<optionB>a transporter for amino acids</optionB>
+		<optionC>RNA of ribosomes</optionC>
+		<optionD>a non-coding RNA</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <!-- 	<frage>
+	<!-- 	<frage>
         <text>Bacteria and Archaea are ...</text>
         <optionA>eukaryotic</optionA>
         <optionB>prokaryotic</optionB>
@@ -343,43 +487,43 @@
         <antwort>2,3</antwort>
     </frage> -->
 
-  <frage>
-    <text>Where does the translation of the RNA into proteins begin? On Codon ...</text>
-    <optionA>AUG</optionA>
-    <optionB>UAA</optionB>
-    <optionC>UAG</optionC>
-    <optionD>UGA</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>Where does the translation of the RNA into proteins begin? On Codon ...</text>
+		<optionA>AUG</optionA>
+		<optionB>UAA</optionB>
+		<optionC>UAG</optionC>
+		<optionD>UGA</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>What is common sugar also called?</text>
-    <optionA>Sucrose</optionA>
-    <optionB>Glucose</optionB>
-    <optionC>Ribose</optionC>
-    <optionD>Fructose</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>What is common sugar also called?</text>
+		<optionA>Sucrose</optionA>
+		<optionB>Glucose</optionB>
+		<optionC>Ribose</optionC>
+		<optionD>Fructose</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>What percentage of the body consists of water?</text>
-    <optionA>0-20%</optionA>
-    <optionB>20-40%</optionB>
-    <optionC>40-60%</optionC>
-    <optionD>60-80%</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>What percentage of the body consists of water?</text>
+		<optionA>0-20%</optionA>
+		<optionB>20-40%</optionB>
+		<optionC>40-60%</optionC>
+		<optionD>60-80%</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>How many different amino acids can humans produce?</text>
-    <optionA>18</optionA>
-    <optionB>20</optionB>
-    <optionC>21</optionC>
-    <optionD>22</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<frage>
+		<text>How many different amino acids can humans produce?</text>
+		<optionA>18</optionA>
+		<optionB>20</optionB>
+		<optionC>21</optionC>
+		<optionD>22</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <!-- 	<frage>
+	<!-- 	<frage>
         <text>What does insulin do?</text>
         <optionA>binds glucose dissolved in blood and brings it into cells</optionA>
         <optionB>promotes the breakdown of glucose</optionB>
@@ -388,35 +532,35 @@
         <antwort>1,2,4</antwort>
     </frage> -->
 
-  <frage>
-    <text>What level must be thoroughly controlled when growing wheat?</text>
-    <optionA>Lysergic acid</optionA>
-    <optionB>Carbonic acid</optionB>
-    <optionC>Phosphoric acid</optionC>
-    <optionD>Acetic acid</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>What level must be thoroughly controlled when growing wheat?</text>
+		<optionA>Lysergic acid</optionA>
+		<optionB>Carbonic acid</optionB>
+		<optionC>Phosphoric acid</optionC>
+		<optionD>Acetic acid</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>What is the name of the puffer fish poison?</text>
-    <optionA>Atropin</optionA>
-    <optionB>Tetrodotoxin</optionB>
-    <optionC>Apitoxin</optionC>
-    <optionD>Solanin</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>What is the name of the puffer fish poison?</text>
+		<optionA>Atropin</optionA>
+		<optionB>Tetrodotoxin</optionB>
+		<optionC>Apitoxin</optionC>
+		<optionD>Solanin</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <frage>
-    <text>What is the name of the plant used for red war paint?</text>
-    <optionA>Henna</optionA>
-    <optionB>Cherry</optionB>
-    <optionC>Belladonna</optionC>
-    <optionD>Strawberry</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>What is the name of the plant used for red war paint?</text>
+		<optionA>Henna</optionA>
+		<optionB>Cherry</optionB>
+		<optionC>Belladonna</optionC>
+		<optionD>Strawberry</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <!-- Chemistry -->
-  <!-- 	<frage>
+	<!-- Chemistry -->
+	<!-- 	<frage>
         <text>Who is officially considered the inventor of the periodic table?</text>
         <optionA>Julius Lothar Meyer</optionA>
         <optionB>Dmitri Iwanowitsch Mendelejew</optionB>
@@ -425,70 +569,106 @@
         <antwort>1,2</antwort>
     </frage> -->
 
-  <frage>
-    <text>At the anode and cathode we see</text>
-    <optionA>oxidation and reduction</optionA>
-    <optionB>oxidation or reduction</optionB>
-    <optionC>oxidation and oxidation</optionC>
-    <optionD>reduction and reduction</optionD>
-    <antwort>1</antwort>
-  </frage>
-    
-  <frage>
-    <text>What does the atomic number describe?</text>
-    <optionA>number of electrons or protons</optionA>
-    <optionB>number of neutrons</optionB>
-    <optionC>number of positrons</optionC>
-    <optionD>number of nucleons</optionD>
-    <antwort>1</antwort>
-  </frage>
-  
-  <frage>
-    <text>What does organic chemistry mean?</text>
-    <optionA>chemistry of hydrogen compounds</optionA>
-    <optionB>chemistry of nitrogen compounds</optionB>
-    <optionC>chemistry of living things</optionC>
-    <optionD>chemistry of carbon compounds</optionD>
-    <antwort>4</antwort>
-  </frage>
-  
-  <frage>
-    <text>What are isomers? </text>
-    <optionA>different, chemical compounds with identical electrical characteristics</optionA>
-    <optionB>different, chemical compounds with identical chemical properties</optionB>
-    <optionC>different, chemical compounds with identical molecular formulae</optionC>
-    <optionD>different, chemical compounds with identical planetary qualities</optionD>
-    <antwort>3</antwort>
-  </frage>
-    
-  <frage>
-    <text>What does the Avogradro constant indicate since 2019?</text>
-    <optionA>number of particles in an atom</optionA>
-    <optionB>number of particles in exactly 12 gram of carbon</optionB>
-    <optionC>number of particles in one mole</optionC>
-    <optionD>number of particles in the universe</optionD>
-    <antwort>3</antwort>
-  </frage>
-  
-  <frage>
-    <text>How one mole is defined since 2019?</text>
-    <optionA>weight of a carbon atom</optionA>
-    <optionB>unit of the atomic number</optionB>
-    <optionC>number of particles in 12 gram of carbon</optionC>
-    <optionD>mass of substance in [Avogrado Constant] many particles</optionD>
-    <antwort>4</antwort>
-  </frage>
-    
-  <frage>
-    <text>When was the Bohr atomic model replaced by the quantum mechanical atomic model?</text>
-    <optionA>1905</optionA>
-    <optionB>1913</optionB>
-    <optionC>1916</optionC>
-    <optionD>1925</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>Which substance can be used to make fingerprints visible?</text>
+		<optionA>Alanine</optionA>
+		<optionB>Glutamine</optionB>
+		<optionC>Histidine</optionC>
+		<optionD>Ninhydrine</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <!--     <frage>
+	<frage>
+		<text>What is sucrose?</text>
+		<optionA>Monosacheride</optionA>
+		<optionB>Disacheride</optionB>
+		<optionC>Oligosacheride</optionC>
+		<optionD>Polysacheride</optionD>
+		<antwort>2</antwort>
+	</frage>
+
+	<frage>
+		<text>What is sucrose?</text>
+		<optionA>Asperin</optionA>
+		<optionB>Berlosin</optionB>
+		<optionC>Codein</optionC>
+		<optionD>Dolormin</optionD>
+		<antwort>1</antwort>
+	</frage>
+
+	<frage>
+		<text>What is the result of mixing bases with acids?</text>
+		<optionA>Woodruff and Panela</optionA>
+		<optionB>Wheat and Sugar</optionB>
+		<optionC>Water and Salt</optionC>
+		<optionD>Wine and Pepper</optionD>
+		<antwort>3</antwort>
+	</frage>
+
+	<frage>
+		<text>At the anode and cathode we see</text>
+		<optionA>oxidation and reduction</optionA>
+		<optionB>oxidation or reduction</optionB>
+		<optionC>oxidation and oxidation</optionC>
+		<optionD>reduction and reduction</optionD>
+		<antwort>1</antwort>
+	</frage>
+
+	<frage>
+		<text>What does the atomic number describe?</text>
+		<optionA>number of electrons or protons</optionA>
+		<optionB>number of neutrons</optionB>
+		<optionC>number of positrons</optionC>
+		<optionD>number of nucleons</optionD>
+		<antwort>1</antwort>
+	</frage>
+
+	<frage>
+		<text>What does organic chemistry mean?</text>
+		<optionA>chemistry of hydrogen compounds</optionA>
+		<optionB>chemistry of nitrogen compounds</optionB>
+		<optionC>chemistry of living things</optionC>
+		<optionD>chemistry of carbon compounds</optionD>
+		<antwort>4</antwort>
+	</frage>
+
+	<frage>
+		<text>What are isomers? </text>
+		<optionA>different, chemical compounds with identical electrical characteristics</optionA>
+		<optionB>different, chemical compounds with identical chemical properties</optionB>
+		<optionC>different, chemical compounds with identical molecular formulae</optionC>
+		<optionD>different, chemical compounds with identical planetary qualities</optionD>
+		<antwort>3</antwort>
+	</frage>
+
+	<frage>
+		<text>What does the Avogradro constant indicate since 2019?</text>
+		<optionA>number of particles in an atom</optionA>
+		<optionB>number of particles in exactly 12 gram of carbon</optionB>
+		<optionC>number of particles in one mole</optionC>
+		<optionD>number of particles in the universe</optionD>
+		<antwort>3</antwort>
+	</frage>
+
+	<frage>
+		<text>How one mole is defined since 2019?</text>
+		<optionA>weight of a carbon atom</optionA>
+		<optionB>unit of the atomic number</optionB>
+		<optionC>number of particles in 12 gram of carbon</optionC>
+		<optionD>mass of substance in [Avogrado Constant] many particles</optionD>
+		<antwort>4</antwort>
+	</frage>
+
+	<frage>
+		<text>When was the Bohr atomic model replaced by the quantum mechanical atomic model?</text>
+		<optionA>1905</optionA>
+		<optionB>1913</optionB>
+		<optionC>1916</optionC>
+		<optionD>1925</optionD>
+		<antwort>4</antwort>
+	</frage>
+
+	<!--     <frage>
         <text>What corresponds to the atomic number?</text>
         <optionA>Position in the periodic system</optionA>
         <optionB>Number of Electronselctro</optionB>
@@ -497,476 +677,476 @@
         <antwort>1,3</antwort>
     </frage> -->
 
-  <frage>
-    <text>How many periods does the periodic table have?</text>
-    <optionA>6</optionA>
-    <optionB>7</optionB>
-    <optionC>8</optionC>
-    <optionD>9</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>How many periods does the periodic table have?</text>
+		<optionA>6</optionA>
+		<optionB>7</optionB>
+		<optionC>8</optionC>
+		<optionD>9</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <frage>
-    <text>How many elements does the periodic table had in 2020?</text>
-    <optionA>42</optionA>
-    <optionB>87</optionB>
-    <optionC>110</optionC>
-    <optionD>118</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>How many elements does the periodic table had in 2020?</text>
+		<optionA>42</optionA>
+		<optionB>87</optionB>
+		<optionC>110</optionC>
+		<optionD>118</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>What is an ion?</text>
-    <optionA>A quark with an electric charge</optionA>
-    <optionB>A hadron with an electric charge</optionB>
-    <optionC>An neutron with an electric charge</optionC>
-    <optionD>An atom or molecule with an electric charge</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>What is an ion?</text>
+		<optionA>A quark with an electric charge</optionA>
+		<optionB>A hadron with an electric charge</optionB>
+		<optionC>An neutron with an electric charge</optionC>
+		<optionD>An atom or molecule with an electric charge</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>What is an acid in subatomic terms?</text>
-    <optionA>A proton emitting substance</optionA>
-    <optionB>A proton absorbing substance</optionB>
-    <optionC>An electron emitting substance</optionC>
-    <optionD>An electron absorbing substance</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>What is an acid in subatomic terms?</text>
+		<optionA>A proton emitting substance</optionA>
+		<optionB>A proton absorbing substance</optionB>
+		<optionC>An electron emitting substance</optionC>
+		<optionD>An electron absorbing substance</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>What does a mole of carbon atoms weight without considering light electrons?</text>
-    <optionA>12 Nanogram</optionA>
-    <optionB>12 Microgram</optionB>
-    <optionC>12 Milligram</optionC>
-    <optionD>12 Gram</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>What does a mole of carbon atoms weight without considering light electrons?</text>
+		<optionA>12 Nanogram</optionA>
+		<optionB>12 Microgram</optionB>
+		<optionC>12 Milligram</optionC>
+		<optionD>12 Gram</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>When is a liquid acidic?</text>
-    <optionA>For a pH value less than 7</optionA>
-    <optionB>For a pH value less than or equal 7</optionB>
-    <optionC>For a pH value higher than or equal 7</optionC>
-    <optionD>For a pH value higher than 7</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>When is a liquid acidic?</text>
+		<optionA>For a pH value less than 7</optionA>
+		<optionB>For a pH value less than or equal 7</optionB>
+		<optionC>For a pH value higher than or equal 7</optionC>
+		<optionD>For a pH value higher than 7</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>What is a Döbereiner's Feuerzeug?</text>
-    <optionA>A lighter without a jet of flame</optionA>
-    <optionB>An electric lighter</optionB>
-    <optionC>A gas lighter</optionC>
-    <optionD>A shaker lighter</optionD>
-    <antwort>1</antwort>
-  </frage>
-  
-  <frage>
-    <text>What are valence electrons in the shell modell?</text>
-    <optionA>inner electrons</optionA>
-    <optionB>intermediate electrons</optionB>
-    <optionC>inner and intermediate electrons</optionC>
-    <optionD>outer electrons</optionD>
-    <antwort>4</antwort>
-  </frage>
-  
-  <frage>
-    <text>What does Avogadro's Law say?</text>
-    <optionA>same number of molecules in same gas of definite volume</optionA>
-    <optionB>same gas of any volume has the same number of molecules</optionB>
-    <optionC>same volume of any gas has the same number of molecules</optionC>
-    <optionD>same speed of molecules in same gas of definite volume</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<frage>
+		<text>What is a Döbereiner's Feuerzeug?</text>
+		<optionA>A lighter without a jet of flame</optionA>
+		<optionB>An electric lighter</optionB>
+		<optionC>A gas lighter</optionC>
+		<optionD>A shaker lighter</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>How do chemical catalysts work?</text>
-    <optionA>They are used up and thus provide additional energy</optionA>
-    <optionB>They weaken or strengthen bonds between atoms</optionB>
-    <optionC>They react with the substances and are converted into other substances</optionC>
-    <optionD>They emit neutrons and thus weaken bonds between atoms</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>What are valence electrons in the shell modell?</text>
+		<optionA>inner electrons</optionA>
+		<optionB>intermediate electrons</optionB>
+		<optionC>inner and intermediate electrons</optionC>
+		<optionD>outer electrons</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>What is a redox reaction?</text>
-    <optionA>Transfer of positrons</optionA>
-    <optionB>Transfer of neutrons</optionB>
-    <optionC>Transfer of protons</optionC>
-    <optionD>Transfer of electrons</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>What does Avogadro's Law say?</text>
+		<optionA>same number of molecules in same gas of definite volume</optionA>
+		<optionB>same gas of any volume has the same number of molecules</optionB>
+		<optionC>same volume of any gas has the same number of molecules</optionC>
+		<optionD>same speed of molecules in same gas of definite volume</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <frage>
-    <text>What does mafic mean?</text>
-    <optionA>Rich in magnesium and iron</optionA>
-    <optionB>Low in magnesium and iron</optionB>
-    <optionC>Rich only in magnesium</optionC>
-    <optionD>Rich only in iron</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>How do chemical catalysts work?</text>
+		<optionA>They are used up and thus provide additional energy</optionA>
+		<optionB>They weaken or strengthen bonds between atoms</optionB>
+		<optionC>They react with the substances and are converted into other substances</optionC>
+		<optionD>They emit neutrons and thus weaken bonds between atoms</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <frage>
-    <text>What color is the olivine mineral?</text>
-    <optionA>red</optionA>
-    <optionB>green</optionB>
-    <optionC>blue</optionC>
-    <optionD>yellow</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>What is a redox reaction?</text>
+		<optionA>Transfer of positrons</optionA>
+		<optionB>Transfer of neutrons</optionB>
+		<optionC>Transfer of protons</optionC>
+		<optionD>Transfer of electrons</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>What is the most common volcanic rock?</text>
-    <optionA>Quartz </optionA>
-    <optionB>Pyroxene</optionB>
-    <optionC>Basalt</optionC>
-    <optionD>Feldspar</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<frage>
+		<text>What does mafic mean?</text>
+		<optionA>Rich in magnesium and iron</optionA>
+		<optionB>Low in magnesium and iron</optionB>
+		<optionC>Rich only in magnesium</optionC>
+		<optionD>Rich only in iron</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>What is Fool's Gold called chemically?</text>
-    <optionA>Azurit</optionA>
-    <optionB>Dendrit</optionB>
-    <optionC>Ferrit</optionC>
-    <optionD>Pyrit</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>What color is the olivine mineral?</text>
+		<optionA>red</optionA>
+		<optionB>green</optionB>
+		<optionC>blue</optionC>
+		<optionD>yellow</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <frage>
-    <text>What is the ratio of salt to water in typical seawater?</text>
-    <optionA>15g:985g</optionA>
-    <optionB>35g:965g</optionB>
-    <optionC>50g:950g</optionC>
-    <optionD>80g:920g</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>What is the most common volcanic rock?</text>
+		<optionA>Quartz </optionA>
+		<optionB>Pyroxene</optionB>
+		<optionC>Basalt</optionC>
+		<optionD>Feldspar</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <frage>
-    <text>What is the chemical name of typical lime?</text>
-    <optionA>Sodium bicarbonate</optionA>
-    <optionB>Calcium carbonate</optionB>
-    <optionC>Potassium carbonate</optionC>
-    <optionD>Magnesium carbonate </optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>What is Fool's Gold called chemically?</text>
+		<optionA>Azurit</optionA>
+		<optionB>Dendrit</optionB>
+		<optionC>Ferrit</optionC>
+		<optionD>Pyrit</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>How was petroleum formed?</text>
-    <optionA>Dead forest was buried by water and decayed</optionA>
-    <optionB>Remains of microorganisms which got into oxygen-deficient environment</optionB>
-    <optionC>High pressure and temperatures up to 1400°C turn carbon into petroleum</optionC>
-    <optionD>A remnants of violent stellar explosions</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>What is the ratio of salt to water in typical seawater?</text>
+		<optionA>15g:985g</optionA>
+		<optionB>35g:965g</optionB>
+		<optionC>50g:950g</optionC>
+		<optionD>80g:920g</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <frage>
-    <text>Who discovered hydrogen?</text>
-    <optionA>Joseph Priestley</optionA>
-    <optionB>Daniel Rutherford</optionB>
-    <optionC>Joseph Black</optionC>
-    <optionD>Henry Cavendish</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>What is the chemical name of typical lime?</text>
+		<optionA>Sodium bicarbonate</optionA>
+		<optionB>Calcium carbonate</optionB>
+		<optionC>Potassium carbonate</optionC>
+		<optionD>Magnesium carbonate </optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <frage>
-    <text>At what temperature is the density of water highest?</text>
-    <optionA>-4° Celsius</optionA>
-    <optionB>-2° Celsius</optionB>
-    <optionC>0° Celsius</optionC>
-    <optionD>4° Celsius</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>How was petroleum formed?</text>
+		<optionA>Dead forest was buried by water and decayed</optionA>
+		<optionB>Remains of microorganisms which got into oxygen-deficient environment</optionB>
+		<optionC>High pressure and temperatures up to 1400°C turn carbon into petroleum</optionC>
+		<optionD>A remnants of violent stellar explosions</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <frage>
-    <text>In which colors do salts of sodium, lithium, barium and copper burn?</text>
-    <optionA>yellow, red, green, blue</optionA>
-    <optionB>yellow, red, blue, green</optionB>
-    <optionC>red, yellow, blue, green</optionC>
-    <optionD>red, green, yellow, blue</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>Who discovered hydrogen?</text>
+		<optionA>Joseph Priestley</optionA>
+		<optionB>Daniel Rutherford</optionB>
+		<optionC>Joseph Black</optionC>
+		<optionD>Henry Cavendish</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>What substance is used to make porcelain?</text>
-    <optionA>Piemontit</optionA>
-    <optionB>Amazonit</optionB>
-    <optionC>Kaolinit</optionC>
-    <optionD>Azurit</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<frage>
+		<text>At what temperature is the density of water highest?</text>
+		<optionA>-4° Celsius</optionA>
+		<optionB>-2° Celsius</optionB>
+		<optionC>0° Celsius</optionC>
+		<optionD>4° Celsius</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>What metals is bronze made of?</text>
-    <optionA>copper and tin</optionA>
-    <optionB>gold and silver</optionB>
-    <optionC>iron and copper</optionC>
-    <optionD>beryllium and calcium</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>In which colors do salts of sodium, lithium, barium and copper burn?</text>
+		<optionA>yellow, red, green, blue</optionA>
+		<optionB>yellow, red, blue, green</optionB>
+		<optionC>red, yellow, blue, green</optionC>
+		<optionD>red, green, yellow, blue</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>What medical product was introduced in 1899?</text>
-    <optionA>Penicillin</optionA>
-    <optionB>Asperin</optionB>
-    <optionC>Insulin</optionC>
-    <optionD>Codein</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>What substance is used to make porcelain?</text>
+		<optionA>Piemontit</optionA>
+		<optionB>Amazonit</optionB>
+		<optionC>Kaolinit</optionC>
+		<optionD>Azurit</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <frage>
-    <text>Who was/were the main developer of nitrogen extraction from the air?</text>
-    <optionA>Fritz Jakob Haber und Carl Bosch</optionA>
-    <optionB>Friedrich Bayer und  Johann Friedrich Weskott</optionB>
-    <optionC>Friedrich Engelhorn</optionC>
-    <optionD>Fritz Henkel</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>What metals is bronze made of?</text>
+		<optionA>copper and tin</optionA>
+		<optionB>gold and silver</optionB>
+		<optionC>iron and copper</optionC>
+		<optionD>beryllium and calcium</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>What can be found in vehicle catalyers?</text>
-    <optionA>Aerolite</optionA>
-    <optionB>Arsenolite</optionB>
-    <optionC>Zoolith</optionC>
-    <optionD>Zeolite</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>What medical product was introduced in 1899?</text>
+		<optionA>Penicillin</optionA>
+		<optionB>Asperin</optionB>
+		<optionC>Insulin</optionC>
+		<optionD>Codein</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <frage>
-    <text>What acid burns on the skin after touching nettles?</text>
-    <optionA>Formic acid</optionA>
-    <optionB>Acetic Acid</optionB>
-    <optionC>Carbonic Acid</optionC>
-    <optionD>Citric Acid</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>Who was/were the main developer of nitrogen extraction from the air?</text>
+		<optionA>Fritz Jakob Haber und Carl Bosch</optionA>
+		<optionB>Friedrich Bayer und  Johann Friedrich Weskott</optionB>
+		<optionC>Friedrich Engelhorn</optionC>
+		<optionD>Fritz Henkel</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>Who is the inventor of the fuse?</text>
-    <optionA>Alfred Bernhard Nobel</optionA>
-    <optionB>Carl Friedrich Benz</optionB>
-    <optionC>Thomas Alva Edison</optionC>
-    <optionD>Charles Babbage</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>What can be found in vehicle catalyers?</text>
+		<optionA>Aerolite</optionA>
+		<optionB>Arsenolite</optionB>
+		<optionC>Zoolith</optionC>
+		<optionD>Zeolite</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>What is the Knallgas reaction?</text>
-    <optionA>Carbon Dioxide + Magnesium reacts to Magnesium Oxide</optionA>
-    <optionB>Nitrogylcerin + Oxygen reacts to Nitrogen</optionB>
-    <optionC>Hydrogen + Oxygen reacts to Water</optionC>
-    <optionD>Ferric Oxide + Aluminium reacts to Iron</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<frage>
+		<text>What acid burns on the skin after touching nettles?</text>
+		<optionA>Formic acid</optionA>
+		<optionB>Acetic Acid</optionB>
+		<optionC>Carbonic Acid</optionC>
+		<optionD>Citric Acid</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <!-- Computer -->
-  <frage>
-    <text>The abbreviation of the asymmetric encryption method RSA stands for ...?</text>
-    <optionA>Rivest, Shamir and Adleman</optionA>
-    <optionB>Random, Secure and Asymmetric</optionB>
-    <optionC>Research for Secure and Asymmetric Algorithms</optionC>
-    <optionD>Ronald, Stephan and Adrian</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>Who is the inventor of the fuse?</text>
+		<optionA>Alfred Bernhard Nobel</optionA>
+		<optionB>Carl Friedrich Benz</optionB>
+		<optionC>Thomas Alva Edison</optionC>
+		<optionD>Charles Babbage</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>Linus Benedict Torvalds was a ...?</text>
-    <optionA>Developer of Windows</optionA>
-    <optionB>Developer of the version management system Git</optionB>
-    <optionC>Co-founder of payment-system PayPal</optionC>
-    <optionD>Hacker from the Ruhrpott</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>What is the Knallgas reaction?</text>
+		<optionA>Carbon Dioxide + Magnesium reacts to Magnesium Oxide</optionA>
+		<optionB>Nitrogylcerin + Oxygen reacts to Nitrogen</optionB>
+		<optionC>Hydrogen + Oxygen reacts to Water</optionC>
+		<optionD>Ferric Oxide + Aluminium reacts to Iron</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <frage>
-    <text>When the support for Windows XP Service Pack 3 has been canceled?</text>
-    <optionA>December 31, 2012</optionA>
-    <optionB>April 8th, 2014</optionB>
-    <optionC>1st March 2009</optionC>
-    <optionD>April 11th, 2017</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<!-- Computer -->
+	<frage>
+		<text>The abbreviation of the asymmetric encryption method RSA stands for ...?</text>
+		<optionA>Rivest, Shamir and Adleman</optionA>
+		<optionB>Random, Secure and Asymmetric</optionB>
+		<optionC>Research for Secure and Asymmetric Algorithms</optionC>
+		<optionD>Ronald, Stephan and Adrian</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>Who initiated the Ubuntu project?</text>
-    <optionA>A German software developer</optionA>
-    <optionB>Business owner Elon Reeve Musk</optionB>
-    <optionC>A south African multimillionaire</optionC>
-    <optionD>An US computer scientist</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<frage>
+		<text>Linus Benedict Torvalds was a ...?</text>
+		<optionA>Developer of Windows</optionA>
+		<optionB>Developer of the version management system Git</optionB>
+		<optionC>Co-founder of payment-system PayPal</optionC>
+		<optionD>Hacker from the Ruhrpott</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <frage>
-    <text>When Windows 1.0 has been released? In the same year as the movie ...?</text>
-    <optionA>Back to the future</optionA>
-    <optionB>Back to the future II</optionB>
-    <optionC>Back to the future III</optionC>
-    <optionD>Back to the future IV</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>When the support for Windows XP Service Pack 3 has been canceled?</text>
+		<optionA>December 31, 2012</optionA>
+		<optionB>April 8th, 2014</optionB>
+		<optionC>1st March 2009</optionC>
+		<optionD>April 11th, 2017</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <frage>
-    <text>Timothy Berner-Lee?</text>
-    <optionA>Plays a character  in "MIB"-movies</optionA>
-    <optionB>Founded the World Wide Web</optionB>
-    <optionC>Is a martial arts legend</optionC>
-    <optionD>Namesake for leeward side</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>Who initiated the Ubuntu project?</text>
+		<optionA>A German software developer</optionA>
+		<optionB>Business owner Elon Reeve Musk</optionB>
+		<optionC>A south African multimillionaire</optionC>
+		<optionD>An US computer scientist</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <frage>
-    <text>How many root name servers were there worldwide in 2018?</text>
-    <optionA>7</optionA>
-    <optionB>42</optionB>
-    <optionC>1001</optionC>
-    <optionD>13</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>When Windows 1.0 has been released? In the same year as the movie ...?</text>
+		<optionA>Back to the future</optionA>
+		<optionB>Back to the future II</optionB>
+		<optionC>Back to the future III</optionC>
+		<optionD>Back to the future IV</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>1 Kibibyte are ...?</text>
-    <optionA>1000 Byte</optionA>
-    <optionB>2 Byte</optionB>
-    <optionC>1024 Byte</optionC>
-    <optionD>16 Byte</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<frage>
+		<text>Timothy Berner-Lee?</text>
+		<optionA>Plays a character  in "MIB"-movies</optionA>
+		<optionB>Founded the World Wide Web</optionB>
+		<optionC>Is a martial arts legend</optionC>
+		<optionD>Namesake for leeward side</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <frage>
-    <text>What does the abbreviation IBM stand for?</text>
-    <optionA>Intelligence, Business and Manufacturing</optionA>
-    <optionB>Indian Business Men</optionB>
-    <optionC>Integrated Board Manufacturer</optionC>
-    <optionD>International Business Machines</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>How many root name servers were there worldwide in 2018?</text>
+		<optionA>7</optionA>
+		<optionB>42</optionB>
+		<optionC>1001</optionC>
+		<optionD>13</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>Who is considered to be the discoverer of the Pentium Bug from 1994?</text>
-    <optionA>Thomas Ray Nicely</optionA>
-    <optionB>Kevin David Mitnick</optionB>
-    <optionC>Paul Kocher</optionC>
-    <optionD>Petra Müller</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>1 Kibibyte are ...?</text>
+		<optionA>1000 Byte</optionA>
+		<optionB>2 Byte</optionB>
+		<optionC>1024 Byte</optionC>
+		<optionD>16 Byte</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <frage>
-    <text>What is so special about the Linux Mint codenames?</text>
-    <optionA>Character names from Toy Story</optionA>
-    <optionB>No codenames</optionB>
-    <optionC>Names of sweets</optionC>
-    <optionD>Female firstnames ending with an 'a'</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>What does the abbreviation IBM stand for?</text>
+		<optionA>Intelligence, Business and Manufacturing</optionA>
+		<optionB>Indian Business Men</optionB>
+		<optionC>Integrated Board Manufacturer</optionC>
+		<optionD>International Business Machines</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>Who initiated the Ubuntu project?</text>
-    <optionA>US software developer Andrew Rubin</optionA>
-    <optionB>South African millionaire Mark Shuttleworth</optionB>
-    <optionC>Finnish-American Linus Torvalds</optionC>
-    <optionD>Canadian-American Elon Reeve Musk</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>Who is considered to be the discoverer of the Pentium Bug from 1994?</text>
+		<optionA>Thomas Ray Nicely</optionA>
+		<optionB>Kevin David Mitnick</optionB>
+		<optionC>Paul Kocher</optionC>
+		<optionD>Petra Müller</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>FPGA stands for ...</text>
-    <optionA>Field Processing Gate Array</optionA>
-    <optionB>Field-Programmable Gate Array</optionB>
-    <optionC>Finnish-American Linus Torvalds</optionC>
-    <optionD>Field-Physics Graphics Array</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>What is so special about the Linux Mint codenames?</text>
+		<optionA>Character names from Toy Story</optionA>
+		<optionB>No codenames</optionB>
+		<optionC>Names of sweets</optionC>
+		<optionD>Female firstnames ending with an 'a'</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>Meltdown is ...</text>
-    <optionA>Hardware vulnerability in processors</optionA>
-    <optionB>Ice used for cooling server farms</optionB>
-    <optionC>Ice cream variety from Google</optionC>
-    <optionD>Hidden game in the Chrome browser</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>Who initiated the Ubuntu project?</text>
+		<optionA>US software developer Andrew Rubin</optionA>
+		<optionB>South African millionaire Mark Shuttleworth</optionB>
+		<optionC>Finnish-American Linus Torvalds</optionC>
+		<optionD>Canadian-American Elon Reeve Musk</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <frage>
-    <text>First iPhone came onto the German market on ...</text>
-    <optionA>November 9, 2007</optionA>
-    <optionB>July 11th, 2008</optionB>
-    <optionC>June 29, 2007</optionC>
-    <optionD>August 08, 2009</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>FPGA stands for ...</text>
+		<optionA>Field Processing Gate Array</optionA>
+		<optionB>Field-Programmable Gate Array</optionB>
+		<optionC>Finnish-American Linus Torvalds</optionC>
+		<optionD>Field-Physics Graphics Array</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <frage>
-    <text>What's the Gang of Four?</text>
-    <optionA>An umbrella term for STEM subjects</optionA>
-    <optionB>Four hackers of the 2017 WannaCry attack</optionB>
-    <optionC>Four authors of a book from the 90ies</optionC>
-    <optionD>Four principles of Object Oriented Programming</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<frage>
+		<text>Meltdown is ...</text>
+		<optionA>Hardware vulnerability in processors</optionA>
+		<optionB>Ice used for cooling server farms</optionB>
+		<optionC>Ice cream variety from Google</optionC>
+		<optionD>Hidden game in the Chrome browser</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>In the mid-2000s, graphics cards were replaced having ...</text>
-    <optionA>an AGP slot</optionA>
-    <optionB>a PCI-Express slot</optionB>
-    <optionC>a S-ATA slot</optionC>
-    <optionD>an AHCI slot</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>First iPhone came onto the German market on ...</text>
+		<optionA>November 9, 2007</optionA>
+		<optionB>July 11th, 2008</optionB>
+		<optionC>June 29, 2007</optionC>
+		<optionD>August 08, 2009</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>How do you call the empty square between a horizontal and vertical scrollbar?</text>
-    <optionA>knoblet</optionA>
-    <optionB>corner</optionB>
-    <optionC>thumb</optionC>
-    <optionD>slot</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>What's the Gang of Four?</text>
+		<optionA>An umbrella term for STEM subjects</optionA>
+		<optionB>Four hackers of the 2017 WannaCry attack</optionB>
+		<optionC>Four authors of a book from the 90ies</optionC>
+		<optionD>Four principles of Object Oriented Programming</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <frage>
-    <text>Which of these Linux distributions is best known for its privacy and security options?</text>
-    <optionA>Ubuntu</optionA>
-    <optionB>Mint</optionB>
-    <optionC>Zorin OS</optionC>
-    <optionD>Parrot OS</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>In the mid-2000s, graphics cards were replaced having ...</text>
+		<optionA>an AGP slot</optionA>
+		<optionB>a PCI-Express slot</optionB>
+		<optionC>a S-ATA slot</optionC>
+		<optionD>an AHCI slot</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>Which of those Linux distributions is the youngest?</text>
-    <optionA>Red Hat Linux</optionA>
-    <optionB>Blackarch</optionB>
-    <optionC>Parrot OS</optionC>
-    <optionD>Kali Linux</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<frage>
+		<text>How do you call the empty square between a horizontal and vertical scrollbar?</text>
+		<optionA>knoblet</optionA>
+		<optionB>corner</optionB>
+		<optionC>thumb</optionC>
+		<optionD>slot</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <frage>
-    <text>Which normal form forbids for the first time to have non-key attributes dependent on other non-key attributes?</text>
-    <optionA>1NF</optionA>
-    <optionB>2NF</optionB>
-    <optionC>3NF</optionC>
-    <optionD>4NF</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<frage>
+		<text>Which of these Linux distributions is best known for its privacy and security options?</text>
+		<optionA>Ubuntu</optionA>
+		<optionB>Mint</optionB>
+		<optionC>Zorin OS</optionC>
+		<optionD>Parrot OS</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>Who is the responsible developer of the graphics format JFIF which is used in JPEG images?</text>
-    <optionA>Lewis Hamilton</optionA>
-    <optionB>Eric Hamilton</optionB>
-    <optionC>Linda Hamilton</optionC>
-    <optionD>Leslie Hamilton</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>Which of those Linux distributions is the youngest?</text>
+		<optionA>Red Hat Linux</optionA>
+		<optionB>Blackarch</optionB>
+		<optionC>Parrot OS</optionC>
+		<optionD>Kali Linux</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <frage>
-    <text>Which University has used the picture "Lenna Sjööblom" for the first time? The University of...</text>
-    <optionA>Southern Mississippi</optionA>
-    <optionB>Southern Indiana</optionB>
-    <optionC>Southern Queensland</optionC>
-    <optionD>Southern California</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>Which normal form forbids for the first time to have non-key attributes dependent on other non-key attributes?</text>
+		<optionA>1NF</optionA>
+		<optionB>2NF</optionB>
+		<optionC>3NF</optionC>
+		<optionD>4NF</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <!--<frage>
+	<frage>
+		<text>Who is the responsible developer of the graphics format JFIF which is used in JPEG images?</text>
+		<optionA>Lewis Hamilton</optionA>
+		<optionB>Eric Hamilton</optionB>
+		<optionC>Linda Hamilton</optionC>
+		<optionD>Leslie Hamilton</optionD>
+		<antwort>2</antwort>
+	</frage>
+
+	<frage>
+		<text>Which University has used the picture "Lenna Sjööblom" for the first time? The University of...</text>
+		<optionA>Southern Mississippi</optionA>
+		<optionB>Southern Indiana</optionB>
+		<optionC>Southern Queensland</optionC>
+		<optionD>Southern California</optionD>
+		<antwort>4</antwort>
+	</frage>
+
+	<!--<frage>
     <text>Which of these statements about Rust were true in 2020?</text>
     <optionA>The unofficial mascot Ferris was made by Karen Rustad Tölva.</optionA>
     <optionB>The language was officially released in 2016 by Mozilla.</optionB>
@@ -975,287 +1155,314 @@
     <antwort>1,3</antwort>
   </frage>-->
 
-  <frage>
-    <text>Who gave the presentation "Null References: The Billion Dollar Mistake"?</text>
-    <optionA>Tony Hawk</optionA>
-    <optionB>Tony Hoare</optionB>
-    <optionC>Tony Stark</optionC>
-    <optionD>Tony Curtis</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>Who gave the presentation "Null References: The Billion Dollar Mistake"?</text>
+		<optionA>Tony Hawk</optionA>
+		<optionB>Tony Hoare</optionB>
+		<optionC>Tony Stark</optionC>
+		<optionD>Tony Curtis</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <frage>
-    <text>What term was coined by Alan Kay in 1967?</text>
-    <optionA>Mutual Exclusion</optionA>
-    <optionB>Internet (ARPAnet)</optionB>
-    <optionC>Object-Oriented Programming</optionC>
-    <optionD>Integrated Circuit</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<frage>
+		<text>What term was coined by Alan Kay in 1967?</text>
+		<optionA>Mutual Exclusion</optionA>
+		<optionB>Internet (ARPAnet)</optionB>
+		<optionC>Object-Oriented Programming</optionC>
+		<optionD>Integrated Circuit</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <frage>
-    <text>What did the abbreviation ARPAnet stand for?</text>
-    <optionA>Address Resolution Projects Agency Network</optionA>
-    <optionB>Active Resolution Projects Agency Network</optionB>
-    <optionC>Address Redundancy Projects Agency Network</optionC>
-    <optionD>Advanced Research Projects Agency Network</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>What did the abbreviation ARPAnet stand for?</text>
+		<optionA>Address Resolution Projects Agency Network</optionA>
+		<optionB>Active Resolution Projects Agency Network</optionB>
+		<optionC>Address Redundancy Projects Agency Network</optionC>
+		<optionD>Advanced Research Projects Agency Network</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>In which year Arthur Appel has described Backward Ray Tracing for the first time?</text>
-    <optionA>1999</optionA>
-    <optionB>1989</optionB>
-    <optionC>1979</optionC>
-    <optionD>1969</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>In which year Arthur Appel has described Backward Ray Tracing for the first time?</text>
+		<optionA>1999</optionA>
+		<optionB>1989</optionB>
+		<optionC>1979</optionC>
+		<optionD>1969</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>What was apparently the codename of C#?</text>
-    <optionA>Cool</optionA>
-    <optionB>Clever</optionB>
-    <optionC>Chic</optionC>
-    <optionD>Chief</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>What was apparently the codename of C#?</text>
+		<optionA>Cool</optionA>
+		<optionB>Clever</optionB>
+		<optionC>Chic</optionC>
+		<optionD>Chief</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>What was the name of the first object-oriented programming language?</text>
-    <optionA>C++</optionA>
-    <optionB>Smalltalk</optionB>
-    <optionC>Simula</optionC>
-    <optionD>Algol 60</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<frage>
+		<text>What was the name of the first object-oriented programming language?</text>
+		<optionA>C++</optionA>
+		<optionB>Smalltalk</optionB>
+		<optionC>Simula</optionC>
+		<optionD>Algol 60</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <frage>
-    <text>What was the name of the first programming language for a computer?</text>
-    <optionA>C</optionA>
-    <optionB>Simula</optionB>
-    <optionC>COBOL</optionC>
-    <optionD>Plankalkül</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>What was the name of the first programming language for a computer?</text>
+		<optionA>C</optionA>
+		<optionB>Simula</optionB>
+		<optionC>COBOL</optionC>
+		<optionD>Plankalkül</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>Who wrote 1836/1837 the first programs?</text>
-    <optionA>Charles Babbage</optionA>
-    <optionB>Ada Lovelace</optionB>
-    <optionC>Isaac Newton</optionC>
-    <optionD>Konrad Zuse</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>Who wrote 1836/1837 the first programs?</text>
+		<optionA>Charles Babbage</optionA>
+		<optionB>Ada Lovelace</optionB>
+		<optionC>Isaac Newton</optionC>
+		<optionD>Konrad Zuse</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <!-- Games -->
-  <frage>
-    <text>Age of Empires was developed by ...?</text>
-    <optionA>Blue Byte</optionA>
-    <optionB>Ensemble Studios</optionB>
-    <optionC>Crytek</optionC>
-    <optionD>Infinity Ward</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<!-- Games -->
+	<frage>
+		<text>Age of Empires was developed by ...?</text>
+		<optionA>Blue Byte</optionA>
+		<optionB>Ensemble Studios</optionB>
+		<optionC>Crytek</optionC>
+		<optionD>Infinity Ward</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <frage>
-    <text>The first Need for Speed was first published ...</text>
-    <optionA>1994</optionA>
-    <optionB>2004</optionB>
-    <optionC>2000</optionC>
-    <optionD>1997</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>The first Need for Speed was first published ...</text>
+		<optionA>1994</optionA>
+		<optionB>2004</optionB>
+		<optionC>2000</optionC>
+		<optionD>1997</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>The Japanese and Professor Tōru Iwatani created ...</text>
-    <optionA>specification for Snake</optionA>
-    <optionB>specification for Super Mario</optionB>
-    <optionC>specification for PAC-MAN</optionC>
-    <optionD>specification for Donkey Kong</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<frage>
+		<text>The Japanese and Professor Tōru Iwatani created ...</text>
+		<optionA>specification for Snake</optionA>
+		<optionB>specification for Super Mario</optionB>
+		<optionC>specification for PAC-MAN</optionC>
+		<optionD>specification for Donkey Kong</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <frage>
-    <text>Under which name was PAC-MAN published in Japan?</text>
-    <optionA>PUCK MAN</optionA>
-    <optionB>CLIC CLAC</optionB>
-    <optionC>PAC-MAN</optionC>
-    <optionD>MEGAMAN</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>Under which name was PAC-MAN published in Japan?</text>
+		<optionA>PUCK MAN</optionA>
+		<optionB>CLIC CLAC</optionB>
+		<optionC>PAC-MAN</optionC>
+		<optionD>MEGAMAN</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>Which of these games was released in 1979?</text>
-    <optionA>Galaga</optionA>
-    <optionB>SPACE INVADERS</optionB>
-    <optionC>PAC-MAN</optionC>
-    <optionD>ASTEROIDS</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>Which of these games was released in 1979?</text>
+		<optionA>Galaga</optionA>
+		<optionB>SPACE INVADERS</optionB>
+		<optionC>PAC-MAN</optionC>
+		<optionD>ASTEROIDS</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>Which of these game consoles was released in 1989?</text>
-    <optionA>NES</optionA>
-    <optionB>Game Boy</optionB>
-    <optionC>Atari</optionC>
-    <optionD>Sega Mega Drive</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>Which of these game consoles was released in 1989?</text>
+		<optionA>NES</optionA>
+		<optionB>Game Boy</optionB>
+		<optionC>Atari</optionC>
+		<optionD>Sega Mega Drive</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <frage>
-    <text>Where does Super Mario come from, according to the movie released in 1993?</text>
-    <optionA>Brooklyn, New York</optionA>
-    <optionB>Castello, Venedig</optionB>
-    <optionC>Trastevere, Rom</optionC>
-    <optionD>Parkville, Melbourne</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>Where does Super Mario come from, according to the movie released in 1993?</text>
+		<optionA>Brooklyn, New York</optionA>
+		<optionB>Castello, Venedig</optionB>
+		<optionC>Trastevere, Rom</optionC>
+		<optionD>Parkville, Melbourne</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>The Yellow Edition of Pokémon has been released</text>
-    <optionA>1996</optionA>
-    <optionB>1997</optionB>
-    <optionC>1998</optionC>
-    <optionD>1999</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<frage>
+		<text>The Yellow Edition of Pokémon has been released</text>
+		<optionA>1996</optionA>
+		<optionB>1997</optionB>
+		<optionC>1998</optionC>
+		<optionD>1999</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <frage>
-    <text>Markus Alexej Persson is ...</text>
-    <optionA>The CEO of AMD</optionA>
-    <optionB>Co-developer of the game Space Invaders</optionB>
-    <optionC>Chief developer for Nvidia RTX graphics</optionC>
-    <optionD>Former chief developer of Minecraft</optionD>
-    <antwort>4</antwort>
-  </frage>
+	<frage>
+		<text>Markus Alexej Persson is ...</text>
+		<optionA>The CEO of AMD</optionA>
+		<optionB>Co-developer of the game Space Invaders</optionB>
+		<optionC>Chief developer for Nvidia RTX graphics</optionC>
+		<optionD>Former chief developer of Minecraft</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <!-- Geology -->
-  <frage>
-    <text>What is the first period of the earth's Paleozoic Era?</text>
-    <optionA>Cambrian</optionA>
-    <optionB>Triassic</optionB>
-    <optionC>Paleogene</optionC>
-    <optionD>Jura</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<!-- Geology -->
+	<frage>
+		<text>What is the first period of the earth's Paleozoic Era?</text>
+		<optionA>Cambrian</optionA>
+		<optionB>Triassic</optionB>
+		<optionC>Paleogene</optionC>
+		<optionD>Jura</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>Where can you see the Darwin Arch?</text>
-    <optionA>Galápagos Islands, Ecuador</optionA>
-    <optionB>Shrewsbury, Shropshire</optionB>
-    <optionC>Ellengowan, Australia</optionC>
-    <optionD>London, England</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>Where can you see the Darwin Arch?</text>
+		<optionA>Galápagos Islands, Ecuador</optionA>
+		<optionB>Shrewsbury, Shropshire</optionB>
+		<optionC>Ellengowan, Australia</optionC>
+		<optionD>London, England</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>What percentage of the earth is covered with water?</text>
-    <optionA>92 percent</optionA>
-    <optionB>71 percent</optionB>
-    <optionC>60 percent</optionC>
-    <optionD>49 percent</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>What percentage of the earth is covered with water?</text>
+		<optionA>92 percent</optionA>
+		<optionB>71 percent</optionB>
+		<optionC>60 percent</optionC>
+		<optionD>49 percent</optionD>
+		<antwort>2</antwort>
+	</frage>
 
-  <!-- History -->
-  <frage>
-    <text>From which cup did Socrates drink and die?</text>
-    <optionA>Pythagoras cup</optionA>
-    <optionB>Nestor Cup</optionB>
-    <optionC>Hemlock Cup</optionC>
-    <optionD>Archimedes Cup</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<!-- History -->
+	<frage>
+		<text>From which cup did Socrates drink and die?</text>
+		<optionA>Pythagoras cup</optionA>
+		<optionB>Nestor Cup</optionB>
+		<optionC>Hemlock Cup</optionC>
+		<optionD>Archimedes Cup</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <frage>
-    <text>When was the Meissen Porcelain Manufactory founded?</text>
-    <optionA>1517</optionA>
-    <optionB>1618</optionB>
-    <optionC>1710</optionC>
-    <optionD>1871</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<frage>
+		<text>When was the Meissen Porcelain Manufactory founded?</text>
+		<optionA>1517</optionA>
+		<optionB>1618</optionB>
+		<optionC>1710</optionC>
+		<optionD>1871</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <!-- Physics -->
-  <frage>
-    <text>What is alpha radiation made of?</text>
-    <optionA>Helium-4 Nucleus</optionA>
-    <optionB>negatively charged electrons</optionB>
-    <optionC>positively charged positrons</optionC>
-    <optionD>only protons</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>Which material was used as a sealant in the Manhattan Project?</text>
+		<optionA>Latex</optionA>
+		<optionB>Plastic</optionB>
+		<optionC>Silicone</optionC>
+		<optionD>Teflon</optionD>
+		<antwort>4</antwort>
+	</frage>
 
-  <frage>
-    <text>What is fission?</text>
-    <optionA>The splitting of electrons</optionA>
-    <optionB>The fusion of atomic nuclei</optionB>
-    <optionC>The splitting of atomic nuclei</optionC>
-    <optionD>The fusion of photons</optionD>
-    <antwort>3</antwort>
-  </frage>
+	<frage>
+		<text>What is the chemical term for Teflon?</text>
+		<optionA>Polyethylene</optionA>
+		<optionB>Polyvinyl chloride</optionB>
+		<optionC>Polytetrafluoroethylene</optionC>
+		<optionD>Perfluoroethylene</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <frage>
-    <text>What is one Ångström?</text>
-    <optionA>The one millionth part of a millimeter</optionA>
-    <optionB>The ten millionth part of a millimeter</optionB>
-    <optionC>The hundred millionth part of a millimeter</optionC>
-    <optionD>The one billionth part of a millimeter</optionD>
-    <antwort>2</antwort>
-  </frage>
-  
-  <frage>
-    <text>What are nucleons?</text>
-    <optionA>protons and electrons</optionA>
-    <optionB>protons and neutrons</optionB>
-    <optionC>protons and positrons</optionC>
-    <optionD>electrons and positrons</optionD>
-    <antwort>2</antwort>
-  </frage>
-  
-  <frage>
-    <text>Alpha, beta and gamma radiation are basically...</text>
-    <optionA>helium nuclei, electrons and photons</optionA>
-    <optionB>electrons, helium nuclei and photons</optionB>
-    <optionC>helium nuclei, photons and electrons</optionC>
-    <optionD>photons, electrons and helium nuclei</optionD>
-    <antwort>1</antwort>
-  </frage>
-  
-  <frage>
-    <text>What is the destruction of matter called?</text>
-    <optionA>anamnesis</optionA>
-    <optionB>annihilation</optionB>
-    <optionC>annexion</optionC>
-    <optionD>abstinence</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<!-- Physics -->
+	<frage>
+		<text>What is alpha radiation made of?</text>
+		<optionA>Helium-4 Nucleus</optionA>
+		<optionB>negatively charged electrons</optionB>
+		<optionC>positively charged positrons</optionC>
+		<optionD>only protons</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <!-- Religion -->
-  <frage>
-    <text>What did a soldier hand to Jesus hanging on the cross?</text>
-    <optionA>sponge full of vinegar water</optionA>
-    <optionB>half a loaf of bread</optionB>
-    <optionC>cup full of wine</optionC>
-    <optionD>sprig of mistletoe</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>What is the color temperature of a candle?</text>
+		<optionA>about 1900 Kelvin</optionA>
+		<optionB>about 2400 Kelvin</optionB>
+		<optionC>about 5600 Kelvin</optionC>
+		<optionD>about 12000 Kelvin</optionD>
+		<antwort>1</antwort>
+	</frage>
 
-  <frage>
-    <text>What are the names of the four evangelists in the Bible?</text>
-    <optionA>Matthäus, Markus, Lukas and Johannes</optionA>
-    <optionB>Matthäus, Magnus, Lukas and Johannes</optionB>
-    <optionC>Matthias, Markus, Lukas and Johannes</optionC>
-    <optionD>Matthäus, Markus, Luis and Johannes</optionD>
-    <antwort>1</antwort>
-  </frage>
+	<frage>
+		<text>What is fission?</text>
+		<optionA>The splitting of electrons</optionA>
+		<optionB>The fusion of atomic nuclei</optionB>
+		<optionC>The splitting of atomic nuclei</optionC>
+		<optionD>The fusion of photons</optionD>
+		<antwort>3</antwort>
+	</frage>
 
-  <frage>
-    <text>What was Jesus' maternal grandmother's name?</text>
-    <optionA>Maria or Mirjam</optionA>
-    <optionB>Anna or Hannah</optionB>
-    <optionC>Milka or Mila</optionC>
-    <optionD>Eva or Chawwah</optionD>
-    <antwort>2</antwort>
-  </frage>
+	<frage>
+		<text>What is one Ångström?</text>
+		<optionA>The one millionth part of a millimeter</optionA>
+		<optionB>The ten millionth part of a millimeter</optionB>
+		<optionC>The hundred millionth part of a millimeter</optionC>
+		<optionD>The one billionth part of a millimeter</optionD>
+		<antwort>2</antwort>
+	</frage>
+
+	<frage>
+		<text>What are nucleons?</text>
+		<optionA>protons and electrons</optionA>
+		<optionB>protons and neutrons</optionB>
+		<optionC>protons and positrons</optionC>
+		<optionD>electrons and positrons</optionD>
+		<antwort>2</antwort>
+	</frage>
+
+	<frage>
+		<text>Alpha, beta and gamma radiation are basically...</text>
+		<optionA>helium nuclei, electrons and photons</optionA>
+		<optionB>electrons, helium nuclei and photons</optionB>
+		<optionC>helium nuclei, photons and electrons</optionC>
+		<optionD>photons, electrons and helium nuclei</optionD>
+		<antwort>1</antwort>
+	</frage>
+
+	<frage>
+		<text>What is the destruction of matter called?</text>
+		<optionA>anamnesis</optionA>
+		<optionB>annihilation</optionB>
+		<optionC>annexion</optionC>
+		<optionD>abstinence</optionD>
+		<antwort>2</antwort>
+	</frage>
+
+	<!-- Religion -->
+	<frage>
+		<text>What did a soldier hand to Jesus hanging on the cross?</text>
+		<optionA>sponge full of vinegar water</optionA>
+		<optionB>half a loaf of bread</optionB>
+		<optionC>cup full of wine</optionC>
+		<optionD>sprig of mistletoe</optionD>
+		<antwort>1</antwort>
+	</frage>
+
+	<frage>
+		<text>What are the names of the four evangelists in the Bible?</text>
+		<optionA>Matthäus, Markus, Lukas and Johannes</optionA>
+		<optionB>Matthäus, Magnus, Lukas and Johannes</optionB>
+		<optionC>Matthias, Markus, Lukas and Johannes</optionC>
+		<optionD>Matthäus, Markus, Luis and Johannes</optionD>
+		<antwort>1</antwort>
+	</frage>
+
+	<frage>
+		<text>What was Jesus' maternal grandmother's name?</text>
+		<optionA>Maria or Mirjam</optionA>
+		<optionB>Anna or Hannah</optionB>
+		<optionC>Milka or Mila</optionC>
+		<optionD>Eva or Chawwah</optionD>
+		<antwort>2</antwort>
+	</frage>
 </quiz>
