@@ -65,12 +65,93 @@
     </frage> -->
 
 	<frage>
+		<text>The study of Hereditary changes without DNA sequence alteration is called..</text>
+		<optionA>Morphogenetics</optionA>
+		<optionB>Psychogenetics</optionB>
+		<optionC>Immunogenetics</optionC>
+		<optionD>Epigenetics</optionD>
+		<antwort>4</antwort>
+	</frage>
+
+	<frage>
+		<text>What do the H and N in H5N1 stand for?</text>
+		<optionA>Hemagglutinin and Neuraminidase</optionA>
+		<optionB>Hemoglobin and Neurasthenie</optionB>
+		<optionC>Haemorrhoid and Neutropenia</optionC>
+		<optionD>Hemorrhage and Neurodermatitis</optionD>
+		<antwort>1</antwort>
+	</frage>
+	
+	<frage>
+		<text>Whose theory seems to be partially correct after more than 200 years? The theory of...</text>
+		<optionA>Albert Einstein about Relativity</optionA>
+		<optionB>Jean-Baptiste de Lamarck about Evolution</optionB>
+		<optionC>Max Planck about Quantum</optionC>
+		<optionD>Denham Harman about Aging</optionD>
+		<antwort>1</antwort>
+	</frage>
+
+	<frage>
+		<text>What are proteins made of?</text>
+		<optionA>Amino acids</optionA>
+		<optionB>Hydrochloric acids</optionB>
+		<optionC>Carbonic acids</optionC>
+		<optionD>Sulfuric acids</optionD>
+		<antwort>1</antwort>
+	</frage>
+
+	<frage>
+		<text>How many amino acids are non-essential, semi-essential and essential for humans?</text>
+		<optionA>8:4:9</optionA>
+		<optionB>10:2:9</optionB>
+		<optionC>6:6:9</optionC>
+		<optionD>8:2:11</optionD>
+		<antwort>2</antwort>
+	</frage>
+
+	<frage>
+		<text>Which two amino acids are essential for pregnant women and children?</text>
+		<optionA>Arginine and Histidine</optionA>
+		<optionB>Alanine and Isoleucine</optionB>
+		<optionC>Cysteine and Tyrosine</optionC>
+		<optionD>Glutamine and Glycine</optionD>
+		<antwort>3</antwort>
+	</frage>
+
+	<frage>
+		<text>What are alpha helix and beta sheet structures?</text>
+		<optionA>Primary structures</optionA>
+		<optionB>Secondary structures</optionB>
+		<optionC>Tertiary structures</optionC>
+		<optionD>Quaternary structures</optionD>
+		<antwort>2</antwort>
+	</frage>
+
+	<frage>
+		<text>DNA to RNA and RNA to Protein is called...</text>
+		<optionA>Transcription and Translation</optionA>
+		<optionB>Translation and Transcription</optionB>
+		<optionC>Perception and Transduction</optionC>
+		<optionD>Transduction and Perception</optionD>
+		<antwort>1</antwort>
+	</frage>
+	
+	<frage>
 		<text>What disease used to be detected by a urine taste test?</text>
 		<optionA>Arthrosis</optionA>
 		<optionB>Borreliosis</optionB>
 		<optionC>Chlamydial infection</optionC>
 		<optionD>Diabetic mellitus</optionD>
 		<antwort>4</antwort>
+	</frage>
+
+	<frage>
+		<text>Who discovered DNA in 1869?</text>
+		<optionA>Friedrich Merz</optionA>
+		<optionB>Friedrich Miescher</optionB>
+		<optionC>Friedrich Nietzsche</optionC>
+		<optionD>Friedrich Wilhelm</optionD>
+		<antwort>2</antwort>
 	</frage>
 
 	<frage>
@@ -89,6 +170,24 @@
 		<optionC>Karl Landsteiner</optionC>
 		<optionD>Robert Koch</optionD>
 		<antwort>3</antwort>
+	</frage>
+
+	<frage>
+		<text>What is the rough number of cones and rods in a human eye?</text>
+		<optionA>7 and 120 Million</optionA>
+		<optionB>14 and 54 Million</optionB>
+		<optionC>74 and 100 Million</optionC>
+		<optionD>90 and 14 Million</optionD>
+		<antwort>1</antwort>
+	</frage>
+	
+	<frage>
+		<text>What percentage of men are red / green blind?</text>
+		<optionA>about 0.8-0.9 Percent</optionA>
+		<optionB>about 8-9 Percent</optionB>
+		<optionC>about 16-18 Percent</optionC>
+		<optionD>about 32-36 Percent</optionD>
+		<antwort>2</antwort>
 	</frage>
 	
 	<frage>
@@ -469,6 +568,15 @@
         <optionD>Johann Wolfgang Döbereiner</optionD>
         <antwort>1,2</antwort>
     </frage> -->
+
+	<frage>
+		<text>Which substance can be used to make fingerprints visible?</text>
+		<optionA>Alanine</optionA>
+		<optionB>Glutamine</optionB>
+		<optionC>Histidine</optionC>
+		<optionD>Ninhydrine</optionD>
+		<antwort>4</antwort>
+	</frage>
 
 	<frage>
 		<text>What is sucrose?</text>
@@ -1273,6 +1381,15 @@
 		<optionB>negatively charged electrons</optionB>
 		<optionC>positively charged positrons</optionC>
 		<optionD>only protons</optionD>
+		<antwort>1</antwort>
+	</frage>
+
+	<frage>
+		<text>What is the color temperature of a candle?</text>
+		<optionA>about 1900 Kelvin</optionA>
+		<optionB>about 2400 Kelvin</optionB>
+		<optionC>about 5600 Kelvin</optionC>
+		<optionD>about 12000 Kelvin</optionD>
 		<antwort>1</antwort>
 	</frage>
 
